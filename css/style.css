@@ -1,0 +1,8 @@
+/* Inicializando Imports CSS */
+
+/* Gerais */
+@import './geral/geral.css';
+
+/* Header */
+@import './header/header.css';
+@import './header/headerBusca.css'

@@ -1,0 +1,86 @@
+/* Configuração Padrão do Headers */
+
+.header {
+  width: 100%;
+}
+
+.header .header_container {
+  width: min(100%, 1200px);  
+
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+}
+
+.header .header_container .header_logo_link {
+  display: block;
+  width: 72px;
+  height: 72px;
+}
+
+.header_nav [data-menu="button"] {  
+  width: 64px;
+  height: 56px;
+
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+  background-image: url('/img/menuhamburguer.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index: 999;
+  position: relative;
+
+  transition: all 0.3s;
+
+  cursor: pointer;  
+}
+
+.header_nav [data-menu="button"].ativo {
+  transform: rotate(90deg);
+}
+
+.header_nav [data-menu="list"] {
+  display: none;
+  padding: 80px 0 20px 40px;
+  top: 0;
+  right: 0;
+
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+
+  z-index: 998;
+  position: absolute;
+}
+
+.header_nav [data-menu="list"].ativo {
+  display: block;
+}
+
+.header_nav [data-menu="list"] li {
+  padding: 1rem;
+  padding-left: 2rem;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+
+  font-size: 1rem;
+  font-weight: 700;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.header_nav [data-menu="list"] li:hover {
+  background-color: #f8f8f8;
+}
