@@ -1,0 +1,43 @@
+.categoria {
+  margin: .5rem 0;
+}
+
+.menu_categoria {
+  width: min(100%, 1200px);
+  margin: auto;
+}
+
+.categorias {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: auto;
+  padding: .5rem 0;
+}
+
+.categorias li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 0.5rem;
+
+  box-shadow: 2px 2px 2px rgb(0, 0, 0,0.2);
+  padding: .8rem 1.5rem;
+
+  border-radius: 50px;
+  cursor: pointer;
+
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.categoria li:hover {
+  transform: scale(1.05);
+}
+
+.categoria li img {
+  display: block;
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
