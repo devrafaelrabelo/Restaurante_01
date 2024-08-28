@@ -1,0 +1,55 @@
+.banner {
+  background-image: url('/img/banner.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0.5rem;
+}
+
+.banner_container {
+  margin: auto;
+  width: min(100%, 1200px);
+  padding: 150px 0;
+}
+
+.banner_container h2 {
+  color: #ffffff;
+  font-size: 3.5rem;
+}
+
+.banner_container p {
+  color: #ffffff;
+  font-size: 1.625rem;
+  font-weight: 55000;
+  letter-spacing: 3px;
+}
+
+.banner_container .banner_busca {
+    margin-top: 1.5rem;
+    display: flex;
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 1rem 1rem;
+    border-radius: 4px;
+}
+  
+.banner_container .banner_busca input {
+  width: 70ch;
+  height: 40px;
+  padding: 0 .5rem;
+  border-radius: 4px;
+  border: solid 2px rgb(0, 0, 0, 0.2);
+  outline: none;  
+  color: rgb(0, 0, 0, 0.8);
+  font-size: 1.125rem;  
+
+}
+
+.banner_container .banner_busca input:focus {
+  border: solid 2px #ea1d2baf;
+}
+
+.banner_container .banner_busca .btn {
+  border: none;
+  cursor: pointer;
+}

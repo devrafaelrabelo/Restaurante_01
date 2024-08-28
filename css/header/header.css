@@ -52,11 +52,12 @@
 
 .header_nav [data-menu="list"] {
   display: none;
-  padding: 80px 0 20px 40px;
+  padding: 80px 0 20px 0;
   top: 0;
   right: 0;
 
   box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 
   z-index: 998;
   position: absolute;
@@ -67,8 +68,7 @@
 }
 
 .header_nav [data-menu="list"] li {
-  padding: 1rem;
-  padding-left: 2rem;
+  padding: 1rem 1rem 1rem 4rem;
   width: 100%;
 
   display: flex;
