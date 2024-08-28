@@ -21,3 +21,6 @@
 
 /* Cardapio */
 @import './cardapio/cardapio.css';
+
+/* Produto */
+@import './produto/produto.css';

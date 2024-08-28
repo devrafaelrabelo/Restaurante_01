@@ -1,0 +1,63 @@
+.produto {
+
+}
+
+.produto_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.produto_container .produto_img {
+  width: 720px;
+  height: 500px;
+
+  border-radius: 10px;
+}
+
+.produto_container .produto_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;  
+}
+
+.produto_container .produto_infos {
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.produto_container .produto_infos .produto_infos_title {
+  font-size: 3rem;
+}
+
+.produto_container .produto_infos .produto_infos_preco {
+  font-size: 2rem;
+  display: flex;
+}
+
+.produto_container .produto_infos .produto_infos_preco span{
+  font-size: 1.5rem;
+  color: #EA1D2C;
+  margin-left: 0.5rem;
+  text-decoration: line-through;  
+}
+
+.produto_infos .produto_infos_sobre {
+  margin-top: 4rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.produto_infos .produto_infos_sobre h4 {
+  margin-bottom: .3rem;
+}
+
+.produto_infos .produto_infos_sobre p:nth-of-type(1) {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 1rem;
+}
+
+.produto_container .btn_adicionar {
+  
+}
