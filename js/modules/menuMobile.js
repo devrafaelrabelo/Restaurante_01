@@ -1,14 +1,19 @@
+import outsideclick from "./outsideclick";
+
 export default class MenuMobile {
   constructor() {
-    this.btnMenu = document.querySelector('[data-menu="button"]')
-    this.menuList = document.querySelector('[data-menu="list"]')
+    this.btnMenu = document.querySelector('[data-menu="button"]');
+    this.menuList = document.querySelector('[data-menu="list"]');
 
-    this.eventToggleMenuMobile = this.eventToggleMenuMobile.bind(this)
+    this.events = ['touchstart', 'click'];
+
+    this.eventToggleMenuMobile = this.eventToggleMenuMobile.bind(this);
   }
 
   toggleMenuMobile() {
     this.menuList.classList.toggle('ativo')
     this.btnMenu.classList.toggle('ativo')
+    outsideclick();
   }
 
   eventToggleMenuMobile(e) {
@@ -17,13 +22,17 @@ export default class MenuMobile {
   }
 
   addEvents() {
-    ['touchstart', 'click'].forEach((evento) => {
+    this.events.forEach((evento) => {
       this.btnMenu.addEventListener(evento, this.eventToggleMenuMobile)
     })
   }
 
   init() {
-    this.addEvents();
+    if (this.btnMenu && this.menuList) {
+      this.addEvents();
+    }
+
+    return this;
   }
 }
 
