@@ -9,3 +9,6 @@
 
 /* Banner */
 @import './banner/banner.css';
+
+/* Menu Categoria */
+@import './menu/menuCategoria.css'
