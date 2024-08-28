@@ -1,0 +1,3002 @@
+[
+  {
+    "nome": "Hambúrguer Clássico",
+    "preco": 14.99,
+    "categoria": "Lanche",
+    "descricao": "Um hambúrguer clássico com carne bovina, queijo, alface, tomate e molho especial.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Queijo Cheddar",
+      "Alface",
+      "Tomate",
+      "Molho Especial"
+    ],
+    "img": "./img/hamburguer/hamburguer01.png",
+    "qtdvendidos": 120,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Cheeseburger Duplo",
+    "preco": 18.99,
+    "categoria": "Lanche",
+    "descricao": "Um cheeseburger com duas camadas de carne bovina e queijo cheddar derretido.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Queijo Cheddar",
+      "Alface",
+      "Tomate",
+      "Molho Especial"
+    ],
+    "img": "./img/hamburguer/hamburguer02.png",
+    "qtdvendidos": 150,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Hambúrguer Bacon BBQ",
+    "preco": 19.99,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer com bacon crocante, molho barbecue, alface e queijo cheddar.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Bacon",
+      "Queijo Cheddar",
+      "Molho Barbecue",
+      "Alface"
+    ],
+    "img": "./img/hamburguer/hamburguer03.png",
+    "qtdvendidos": 135,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Hambúrguer de Frango Crocante",
+    "preco": 16.50,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer de frango empanado crocante com alface, tomate e maionese.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Frango Empanado",
+      "Alface",
+      "Tomate",
+      "Maionese"
+    ],
+    "img": "./img/hamburguer/hamburguer04.png",
+    "qtdvendidos": 110,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Wrap de Frango Grelhado",
+    "preco": 11.99,
+    "categoria": "Lanche",
+    "descricao": "Um wrap de frango grelhado com salada e molho de iogurte.",
+    "ingredientes": [
+      "Tortilha",
+      "Frango Grelhado",
+      "Alface",
+      "Tomate",
+      "Molho de Iogurte"
+    ],
+    "img": "./img/hamburguer/hamburguer05.png",
+    "qtdvendidos": 45,
+    "desconto": 0.2
+  },
+  {
+    "nome": "X-Burger Tradicional",
+    "preco": 13.99,
+    "categoria": "Lanche",
+    "descricao": "X-Burger tradicional com carne bovina, queijo, alface e molho especial.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Queijo",
+      "Alface",
+      "Molho Especial"
+    ],
+    "img": "./img/hamburguer/hamburguer01.png",
+    "qtdvendidos": 100,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Hambúrguer de Costela",
+    "preco": 20.99,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer feito com carne de costela bovina, cebola caramelizada e queijo cheddar.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne de Costela",
+      "Cebola Caramelizada",
+      "Queijo Cheddar"
+    ],
+    "img": "./img/hamburguer/hamburguer02.png",
+    "qtdvendidos": 95,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Hambúrguer Vegano",
+    "preco": 15.99,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer 100% vegano com carne de soja, alface, tomate e maionese vegana.",
+    "ingredientes": [
+      "Pão Integral",
+      "Carne de Soja",
+      "Alface",
+      "Tomate",
+      "Maionese Vegana"
+    ],
+    "img": "./img/hamburguer/hamburguer03.png",
+    "qtdvendidos": 70,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Cheeseburger Bacon",
+    "preco": 17.99,
+    "categoria": "Lanche",
+    "descricao": "Cheeseburger com bacon, queijo cheddar, alface e molho especial.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Bacon",
+      "Queijo Cheddar",
+      "Alface",
+      "Molho Especial"
+    ],
+    "img": "./img/hamburguer/hamburguer04.png",
+    "qtdvendidos": 125,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Cheeseburger Clássico",
+    "preco": 14.50,
+    "categoria": "Lanche",
+    "descricao": "Um cheeseburger com carne bovina, queijo cheddar e molho especial.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Queijo Cheddar",
+      "Molho Especial"
+    ],
+    "img": "./img/hamburguer/hamburguer05.png",
+    "qtdvendidos": 140,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Hambúrguer com Ovo",
+    "preco": 15.99,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer com carne bovina, ovo frito, alface e molho especial.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Ovo Frito",
+      "Alface",
+      "Molho Especial"
+    ],
+    "img": "./img/hamburguer/hamburguer01.png",
+    "qtdvendidos": 115,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Hambúrguer Gourmet",
+    "preco": 22.99,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer gourmet com carne bovina, queijo brie, rúcula e cebola caramelizada.",
+    "ingredientes": [
+      "Pão Brioche",
+      "Carne Bovina",
+      "Queijo Brie",
+      "Rúcula",
+      "Cebola Caramelizada"
+    ],
+    "img": "./img/hamburguer/hamburguer02.png",
+    "qtdvendidos": 90,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Hambúrguer de Frango com Cheddar",
+    "preco": 17.50,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer de frango grelhado com queijo cheddar, alface e tomate.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Frango Grelhado",
+      "Queijo Cheddar",
+      "Alface",
+      "Tomate"
+    ],
+    "img": "./img/hamburguer/hamburguer03.png",
+    "qtdvendidos": 85,
+    "desconto": 0.0
+  },
+  {
+    "nome": "X-Bacon Duplo",
+    "preco": 19.99,
+    "categoria": "Lanche",
+    "descricao": "X-Bacon com duas camadas de carne bovina, bacon e queijo cheddar.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Bacon",
+      "Queijo Cheddar",
+      "Molho Especial"
+    ],
+    "img": "./img/hamburguer/hamburguer04.png",
+    "qtdvendidos": 130,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Hambúrguer de Calabresa",
+    "preco": 16.99,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer de linguiça calabresa com queijo provolone e cebola roxa.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Linguiça Calabresa",
+      "Queijo Provolone",
+      "Cebola Roxa"
+    ],
+    "img": "./img/hamburguer/hamburguer05.png",
+    "qtdvendidos": 95,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Hambúrguer com Gorgonzola",
+    "preco": 21.50,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer com carne bovina, queijo gorgonzola, rúcula e tomate seco.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Queijo Gorgonzola",
+      "Rúcula",
+      "Tomate Seco"
+    ],
+    "img": "./img/hamburguer/hamburguer01.png",
+    "qtdvendidos": 80,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Cheeseburger com Molho de Mostarda",
+    "preco": 15.99,
+    "categoria": "Lanche",
+    "descricao": "Cheeseburger com molho de mostarda especial, alface e queijo suíço.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Queijo Suíço",
+      "Alface",
+      "Molho de Mostarda"
+    ],
+    "img": "./img/hamburguer/hamburguer02.png",
+    "qtdvendidos": 90,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Hambúrguer com Cebola Crispy",
+    "preco": 18.99,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer com carne bovina, cebola crispy, queijo cheddar e alface.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Cebola Crispy",
+      "Queijo Cheddar",
+      "Alface"
+    ],
+    "img": "./img/hamburguer/hamburguer03.png",
+    "qtdvendidos": 125,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Hambúrguer com Guacamole",
+    "preco": 20.50,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer com carne bovina, guacamole, queijo cheddar e tomate.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Guacamole",
+      "Queijo Cheddar",
+      "Tomate"
+    ],
+    "img": "./img/hamburguer/hamburguer04.png",
+    "qtdvendidos": 105,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Hambúrguer com Pimenta Jalapeño",
+    "preco": 19.50,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer com carne bovina, pimenta jalapeño, queijo cheddar e alface.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Pimenta Jalapeño",
+      "Queijo Cheddar",
+      "Alface"
+    ],
+    "img": "./img/hamburguer/hamburguer05.png",
+    "qtdvendidos": 115,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Hambúrguer com Cogumelos",
+    "preco": 21.99,
+    "categoria": "Lanche",
+    "descricao": "Hambúrguer com carne bovina, cogumelos salteados, queijo suíço e rúcula.",
+    "ingredientes": [
+      "Pão de Hambúrguer",
+      "Carne Bovina",
+      "Cogumelos Salteados",
+      "Queijo Suíço",
+      "Rúcula"
+    ],
+    "img": "./img/hamburguer/hamburguer01.png",
+    "qtdvendidos": 90,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Filé Mignon ao Molho Madeira",
+    "preco": 29.99,
+    "categoria": "Prato",
+    "descricao": "Filé mignon grelhado ao molho madeira, acompanhado de arroz e batatas rústicas.",
+    "ingredientes": [
+      "Filé Mignon",
+      "Molho Madeira",
+      "Arroz",
+      "Batatas Rústicas"
+    ],
+    "img": "./img/pratos/food01.png",
+    "qtdvendidos": 85,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Salmão Grelhado com Legumes",
+    "preco": 34.99,
+    "categoria": "Prato",
+    "descricao": "Salmão grelhado servido com legumes salteados e purê de batata.",
+    "ingredientes": [
+      "Salmão",
+      "Legumes",
+      "Purê de Batata"
+    ],
+    "img": "./img/pratos/food02.png",
+    "qtdvendidos": 70,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Risoto de Camarão",
+    "preco": 32.50,
+    "categoria": "Prato",
+    "descricao": "Risoto cremoso de camarão, preparado com vinho branco e parmesão.",
+    "ingredientes": [
+      "Arroz Arbóreo",
+      "Camarão",
+      "Vinho Branco",
+      "Parmesão"
+    ],
+    "img": "./img/pratos/food03.png",
+    "qtdvendidos": 95,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Lasanha à Bolonhesa",
+    "preco": 27.99,
+    "categoria": "Prato",
+    "descricao": "Lasanha tradicional à bolonhesa com molho de tomate e queijo gratinado.",
+    "ingredientes": [
+      "Massa de Lasanha",
+      "Molho Bolonhesa",
+      "Molho de Tomate",
+      "Queijo"
+    ],
+    "img": "./img/pratos/food04.png",
+    "qtdvendidos": 110,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Peito de Frango à Parmegiana",
+    "preco": 25.99,
+    "categoria": "Prato",
+    "descricao": "Peito de frango empanado, coberto com molho de tomate e queijo derretido, acompanhado de arroz e batatas fritas.",
+    "ingredientes": [
+      "Peito de Frango",
+      "Molho de Tomate",
+      "Queijo",
+      "Arroz",
+      "Batatas Fritas"
+    ],
+    "img": "./img/pratos/food05.png",
+    "qtdvendidos": 125,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Strogonoff de Carne",
+    "preco": 26.50,
+    "categoria": "Prato",
+    "descricao": "Strogonoff de carne com champignon, acompanhado de arroz branco e batata palha.",
+    "ingredientes": [
+      "Carne",
+      "Champignon",
+      "Molho de Tomate",
+      "Arroz Branco",
+      "Batata Palha"
+    ],
+    "img": "./img/pratos/food01.png",
+    "qtdvendidos": 100,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Spaghetti Carbonara",
+    "preco": 23.99,
+    "categoria": "Prato",
+    "descricao": "Massa spaghetti ao molho carbonara com bacon e parmesão.",
+    "ingredientes": [
+      "Spaghetti",
+      "Bacon",
+      "Molho Carbonara",
+      "Parmesão"
+    ],
+    "img": "./img/pratos/food02.png",
+    "qtdvendidos": 90,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Bife à Cavalo",
+    "preco": 24.50,
+    "categoria": "Prato",
+    "descricao": "Bife grelhado com ovo frito, servido com arroz, feijão e batata frita.",
+    "ingredientes": [
+      "Bife",
+      "Ovo Frito",
+      "Arroz",
+      "Feijão",
+      "Batata Frita"
+    ],
+    "img": "./img/pratos/food03.png",
+    "qtdvendidos": 110,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Costela com Barbecue",
+    "preco": 31.99,
+    "categoria": "Prato",
+    "descricao": "Costela suína assada ao molho barbecue, acompanhada de purê de batata e legumes.",
+    "ingredientes": [
+      "Costela Suína",
+      "Molho Barbecue",
+      "Purê de Batata",
+      "Legumes"
+    ],
+    "img": "./img/pratos/food04.png",
+    "qtdvendidos": 85,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Camarão à Grega",
+    "preco": 36.99,
+    "categoria": "Prato",
+    "descricao": "Camarão à milanesa servido com arroz grego e batatas fritas.",
+    "ingredientes": [
+      "Camarão",
+      "Farinha de Rosca",
+      "Arroz Grego",
+      "Batatas Fritas"
+    ],
+    "img": "./img/pratos/food05.png",
+    "qtdvendidos": 75,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Frango Grelhado com Purê",
+    "preco": 22.50,
+    "categoria": "Prato",
+    "descricao": "Peito de frango grelhado com purê de batata e legumes.",
+    "ingredientes": [
+      "Peito de Frango",
+      "Purê de Batata",
+      "Legumes"
+    ],
+    "img": "./img/pratos/food01.png",
+    "qtdvendidos": 115,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Bacalhau à Portuguesa",
+    "preco": 39.99,
+    "categoria": "Prato",
+    "descricao": "Bacalhau assado com batatas, cebolas, pimentões e azeitonas.",
+    "ingredientes": [
+      "Bacalhau",
+      "Batatas",
+      "Cebolas",
+      "Pimentões",
+      "Azeitonas"
+    ],
+    "img": "./img/pratos/food02.png",
+    "qtdvendidos": 80,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Picanha Grelhada",
+    "preco": 37.99,
+    "categoria": "Prato",
+    "descricao": "Picanha grelhada, servida com arroz, feijão tropeiro e batatas fritas.",
+    "ingredientes": [
+      "Picanha",
+      "Arroz",
+      "Feijão Tropeiro",
+      "Batatas Fritas"
+    ],
+    "img": "./img/pratos/food03.png",
+    "qtdvendidos": 95,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Tilápia com Molho de Alcaparras",
+    "preco": 28.99,
+    "categoria": "Prato",
+    "descricao": "Filé de tilápia grelhado com molho de alcaparras, acompanhado de arroz branco e legumes.",
+    "ingredientes": [
+      "Tilápia",
+      "Molho de Alcaparras",
+      "Arroz Branco",
+      "Legumes"
+    ],
+    "img": "./img/pratos/food04.png",
+    "qtdvendidos": 85,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Escondidinho de Carne Seca",
+    "preco": 26.99,
+    "categoria": "Prato",
+    "descricao": "Escondidinho de carne seca com purê de mandioca e queijo gratinado.",
+    "ingredientes": [
+      "Carne Seca",
+      "Purê de Mandioca",
+      "Queijo"
+    ],
+    "img": "./img/pratos/food05.png",
+    "qtdvendidos": 90,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Paella",
+    "preco": 38.99,
+    "categoria": "Prato",
+    "descricao": "Paella tradicional espanhola com frutos do mar, arroz e açafrão.",
+    "ingredientes": [
+      "Frutos do Mar",
+      "Arroz",
+      "Açafrão"
+    ],
+    "img": "./img/pratos/food01.png",
+    "qtdvendidos": 75,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Nhoque ao Molho Pesto",
+    "preco": 21.99,
+    "categoria": "Prato",
+    "descricao": "Nhoque de batata ao molho pesto, servido com tomates cereja e queijo parmesão.",
+    "ingredientes": [
+      "Nhoque de Batata",
+      "Molho Pesto",
+      "Tomates Cereja",
+      "Queijo Parmesão"
+    ],
+    "img": "./img/pratos/food02.png",
+    "qtdvendidos": 105,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Carne de Panela com Legumes",
+    "preco": 23.99,
+    "categoria": "Prato",
+    "descricao": "Carne de panela cozida lentamente com legumes, acompanhada de arroz branco.",
+    "ingredientes": [
+      "Carne de Panela",
+      "Legumes",
+      "Arroz Branco"
+    ],
+    "img": "./img/pratos/food03.png",
+    "qtdvendidos": 120,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Ravioli de Ricota e Espinafre",
+    "preco": 24.50,
+    "categoria": "Prato",
+    "descricao": "Ravioli recheado com ricota e espinafre, servido ao molho de tomate fresco.",
+    "ingredientes": [
+      "Ravioli",
+      "Ricota",
+      "Espinafre",
+      "Molho de Tomate"
+    ],
+    "img": "./img/pratos/food04.png",
+    "qtdvendidos": 95,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Tilápia ao Molho de Maracujá",
+    "preco": 27.50,
+    "categoria": "Prato",
+    "descricao": "Filé de tilápia grelhado ao molho de maracujá, acompanhado de arroz e batata sauté.",
+    "ingredientes": [
+      "Tilápia",
+      "Molho de Maracujá",
+      "Arroz",
+      "Batata Sauté"
+    ],
+    "img": "./img/pratos/food05.png",
+    "qtdvendidos": 85,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Polpetone Recheado",
+    "preco": 28.50,
+    "categoria": "Prato",
+    "descricao": "Polpetone recheado com queijo mussarela, servido com molho de tomate e purê de batata.",
+    "ingredientes": [
+      "Carne Moída",
+      "Queijo Mussarela",
+      "Molho de Tomate",
+      "Purê de Batata"
+    ],
+    "img": "./img/pratos/food01.png",
+    "qtdvendidos": 80,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Bacalhau à Brás",
+    "preco": 34.99,
+    "categoria": "Prato",
+    "descricao": "Bacalhau desfiado com batatas palha, cebola e ovos mexidos.",
+    "ingredientes": [
+      "Bacalhau",
+      "Batatas Palha",
+      "Cebola",
+      "Ovos"
+    ],
+    "img": "./img/pratos/food02.png",
+    "qtdvendidos": 70,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Tilápia Grelhada com Alho",
+    "preco": 26.99,
+    "categoria": "Prato",
+    "descricao": "Filé de tilápia grelhado com alho crocante, acompanhado de arroz e legumes.",
+    "ingredientes": [
+      "Tilápia",
+      "Alho",
+      "Arroz",
+      "Legumes"
+    ],
+    "img": "./img/pratos/food03.png",
+    "qtdvendidos": 90,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Frango ao Curry com Arroz",
+    "preco": 23.50,
+    "categoria": "Prato",
+    "descricao": "Frango ao curry servido com arroz branco e legumes salteados.",
+    "ingredientes": [
+      "Frango",
+      "Curry",
+      "Arroz Branco",
+      "Legumes"
+    ],
+    "img": "./img/pratos/food04.png",
+    "qtdvendidos": 110,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Escondidinho de Frango",
+    "preco": 24.99,
+    "categoria": "Prato",
+    "descricao": "Escondidinho de frango desfiado com purê de mandioca e queijo gratinado.",
+    "ingredientes": [
+      "Frango Desfiado",
+      "Purê de Mandioca",
+      "Queijo"
+    ],
+    "img": "./img/pratos/food05.png",
+    "qtdvendidos": 85,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Picadinho de Carne",
+    "preco": 25.99,
+    "categoria": "Prato",
+    "descricao": "Picadinho de carne com molho madeira, servido com arroz, feijão e farofa.",
+    "ingredientes": [
+      "Carne",
+      "Molho Madeira",
+      "Arroz",
+      "Feijão",
+      "Farofa"
+    ],
+    "img": "./img/pratos/food01.png",
+    "qtdvendidos": 100,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Moqueca de Peixe",
+    "preco": 31.99,
+    "categoria": "Prato",
+    "descricao": "Moqueca de peixe com pimentões, leite de coco e azeite de dendê, acompanhada de arroz branco.",
+    "ingredientes": [
+      "Peixe",
+      "Pimentões",
+      "Leite de Coco",
+      "Azeite de Dendê",
+      "Arroz Branco"
+    ],
+    "img": "./img/pratos/food02.png",
+    "qtdvendidos": 90,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Ravioli de Carne",
+    "preco": 26.99,
+    "categoria": "Prato",
+    "descricao": "Ravioli recheado com carne, servido com molho de tomate fresco e manjericão.",
+    "ingredientes": [
+      "Ravioli",
+      "Carne",
+      "Molho de Tomate",
+      "Manjericão"
+    ],
+    "img": "./img/pratos/food03.png",
+    "qtdvendidos": 85,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Frango Xadrez",
+    "preco": 23.99,
+    "categoria": "Prato",
+    "descricao": "Frango xadrez com pimentões, cebola, amendoim e molho shoyu, servido com arroz branco.",
+    "ingredientes": [
+      "Frango",
+      "Pimentões",
+      "Cebola",
+      "Amendoim",
+      "Molho Shoyu",
+      "Arroz Branco"
+    ],
+    "img": "./img/pratos/food04.png",
+    "qtdvendidos": 105,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Costela com Purê de Mandioquinha",
+    "preco": 29.99,
+    "categoria": "Prato",
+    "descricao": "Costela bovina cozida lentamente, servida com purê de mandioquinha e legumes.",
+    "ingredientes": [
+      "Costela Bovina",
+      "Purê de Mandioquinha",
+      "Legumes"
+    ],
+    "img": "./img/pratos/food05.png",
+    "qtdvendidos": 80,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Filé de Peixe à Dorê",
+    "preco": 27.50,
+    "categoria": "Prato",
+    "descricao": "Filé de peixe empanado à dorê, acompanhado de arroz à grega e batatas fritas.",
+    "ingredientes": [
+      "Filé de Peixe",
+      "Farinha de Rosca",
+      "Arroz à Grega",
+      "Batatas Fritas"
+    ],
+    "img": "./img/pratos/food01.png",
+    "qtdvendidos": 90,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Sushi de Salmão",
+    "preco": 18.99,
+    "categoria": "Japonesa",
+    "descricao": "Três unidades de sushi de salmão fresco, servido com wasabi e gengibre.",
+    "ingredientes": [
+      "Salmão",
+      "Arroz para Sushi",
+      "Alga Nori",
+      "Wasabi",
+      "Gengibre"
+    ],
+    "img": "./img/japonesa/japonesa01.png",
+    "qtdvendidos": 150,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Temaki de Atum",
+    "preco": 12.50,
+    "categoria": "Japonesa",
+    "descricao": "Temaki de atum fresco, enrolado em alga nori com arroz e gergelim.",
+    "ingredientes": [
+      "Atum",
+      "Arroz para Sushi",
+      "Alga Nori",
+      "Gergelim"
+    ],
+    "img": "./img/japonesa/japonesa02.png",
+    "qtdvendidos": 100,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Sashimi de Peixe Branco",
+    "preco": 22.99,
+    "categoria": "Japonesa",
+    "descricao": "Seis fatias de sashimi de peixe branco fresco, servido com wasabi e molho de soja.",
+    "ingredientes": [
+      "Peixe Branco",
+      "Wasabi",
+      "Molho de Soja"
+    ],
+    "img": "./img/japonesa/japonesa03.png",
+    "qtdvendidos": 85,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Yakissoba de Frango",
+    "preco": 24.99,
+    "categoria": "Japonesa",
+    "descricao": "Yakissoba tradicional de frango com legumes e molho especial.",
+    "ingredientes": [
+      "Frango",
+      "Macarrão para Yakissoba",
+      "Legumes",
+      "Molho de Soja",
+      "Cebolinha"
+    ],
+    "img": "./img/japonesa/japonesa04.png",
+    "qtdvendidos": 120,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Uramaki Califórnia",
+    "preco": 20.99,
+    "categoria": "Japonesa",
+    "descricao": "Oito unidades de uramaki califórnia com kani, pepino, manga e gergelim.",
+    "ingredientes": [
+      "Kani",
+      "Pepino",
+      "Manga",
+      "Arroz para Sushi",
+      "Gergelim"
+    ],
+    "img": "./img/japonesa/japonesa05.png",
+    "qtdvendidos": 130,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Hot Roll de Salmão",
+    "preco": 21.50,
+    "categoria": "Japonesa",
+    "descricao": "Oito unidades de hot roll de salmão empanado com molho tarê.",
+    "ingredientes": [
+      "Salmão",
+      "Arroz para Sushi",
+      "Farinha Panko",
+      "Molho Tarê"
+    ],
+    "img": "./img/japonesa/japonesa01.png",
+    "qtdvendidos": 90,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Nigiri de Polvo",
+    "preco": 19.50,
+    "categoria": "Japonesa",
+    "descricao": "Duas unidades de nigiri de polvo fresco, servido com molho de soja.",
+    "ingredientes": [
+      "Polvo",
+      "Arroz para Sushi",
+      "Molho de Soja"
+    ],
+    "img": "./img/japonesa/japonesa02.png",
+    "qtdvendidos": 75,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Sashimi de Salmão",
+    "preco": 25.99,
+    "categoria": "Japonesa",
+    "descricao": "Seis fatias de sashimi de salmão fresco, acompanhado de wasabi e gengibre.",
+    "ingredientes": [
+      "Salmão",
+      "Wasabi",
+      "Gengibre"
+    ],
+    "img": "./img/japonesa/japonesa03.png",
+    "qtdvendidos": 140,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Temaki de Salmão com Cream Cheese",
+    "preco": 14.99,
+    "categoria": "Japonesa",
+    "descricao": "Temaki de salmão com cream cheese, enrolado em alga nori com arroz e cebolinha.",
+    "ingredientes": [
+      "Salmão",
+      "Cream Cheese",
+      "Arroz para Sushi",
+      "Alga Nori",
+      "Cebolinha"
+    ],
+    "img": "./img/japonesa/japonesa04.png",
+    "qtdvendidos": 110,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Gyoza de Porco",
+    "preco": 16.50,
+    "categoria": "Japonesa",
+    "descricao": "Seis unidades de gyoza de porco com molho ponzu.",
+    "ingredientes": [
+      "Carne de Porco",
+      "Massa para Gyoza",
+      "Molho Ponzu"
+    ],
+    "img": "./img/japonesa/japonesa05.png",
+    "qtdvendidos": 95,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Ceviche Japonês",
+    "preco": 22.99,
+    "categoria": "Japonesa",
+    "descricao": "Ceviche de peixe branco com cebola roxa, coentro e molho ponzu.",
+    "ingredientes": [
+      "Peixe Branco",
+      "Cebola Roxa",
+      "Coentro",
+      "Molho Ponzu"
+    ],
+    "img": "./img/japonesa/japonesa01.png",
+    "qtdvendidos": 85,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Temaki de Atum com Abacate",
+    "preco": 13.99,
+    "categoria": "Japonesa",
+    "descricao": "Temaki de atum com abacate, enrolado em alga nori com arroz e gergelim.",
+    "ingredientes": [
+      "Atum",
+      "Abacate",
+      "Arroz para Sushi",
+      "Alga Nori",
+      "Gergelim"
+    ],
+    "img": "./img/japonesa/japonesa02.png",
+    "qtdvendidos": 90,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Sashimi de Atum",
+    "preco": 24.99,
+    "categoria": "Japonesa",
+    "descricao": "Seis fatias de sashimi de atum fresco, servido com wasabi e molho de soja.",
+    "ingredientes": [
+      "Atum",
+      "Wasabi",
+      "Molho de Soja"
+    ],
+    "img": "./img/japonesa/japonesa03.png",
+    "qtdvendidos": 100,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Yakissoba de Carne",
+    "preco": 26.99,
+    "categoria": "Japonesa",
+    "descricao": "Yakissoba de carne com legumes, molho de soja e cebolinha.",
+    "ingredientes": [
+      "Carne",
+      "Macarrão para Yakissoba",
+      "Legumes",
+      "Molho de Soja",
+      "Cebolinha"
+    ],
+    "img": "./img/japonesa/japonesa04.png",
+    "qtdvendidos": 115,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Hot Roll de Camarão",
+    "preco": 23.50,
+    "categoria": "Japonesa",
+    "descricao": "Oito unidades de hot roll de camarão empanado com molho tarê.",
+    "ingredientes": [
+      "Camarão",
+      "Arroz para Sushi",
+      "Farinha Panko",
+      "Molho Tarê"
+    ],
+    "img": "./img/japonesa/japonesa05.png",
+    "qtdvendidos": 105,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Nigiri de Salmão",
+    "preco": 17.99,
+    "categoria": "Japonesa",
+    "descricao": "Duas unidades de nigiri de salmão fresco, servido com molho de soja.",
+    "ingredientes": [
+      "Salmão",
+      "Arroz para Sushi",
+      "Molho de Soja"
+    ],
+    "img": "./img/japonesa/japonesa01.png",
+    "qtdvendidos": 135,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Uramaki Filadélfia",
+    "preco": 19.50,
+    "categoria": "Japonesa",
+    "descricao": "Oito unidades de uramaki Filadélfia com salmão, cream cheese e cebolinha.",
+    "ingredientes": [
+      "Salmão",
+      "Cream Cheese",
+      "Arroz para Sushi",
+      "Cebolinha"
+    ],
+    "img": "./img/japonesa/japonesa02.png",
+    "qtdvendidos": 95,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Temaki de Camarão",
+    "preco": 16.99,
+    "categoria": "Japonesa",
+    "descricao": "Temaki de camarão com maionese, enrolado em alga nori com arroz e gergelim.",
+    "ingredientes": [
+      "Camarão",
+      "Maionese",
+      "Arroz para Sushi",
+      "Alga Nori",
+      "Gergelim"
+    ],
+    "img": "./img/japonesa/japonesa03.png",
+    "qtdvendidos": 80,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Gyoza de Frango",
+    "preco": 15.99,
+    "categoria": "Japonesa",
+    "descricao": "Seis unidades de gyoza de frango com molho ponzu.",
+    "ingredientes": [
+      "Frango",
+      "Massa para Gyoza",
+      "Molho Ponzu"
+    ],
+    "img": "./img/japonesa/japonesa04.png",
+    "qtdvendidos": 90,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Ceviche de Salmão",
+    "preco": 23.99,
+    "categoria": "Japonesa",
+    "descricao": "Ceviche de salmão com cebola roxa, coentro e molho ponzu.",
+    "ingredientes": [
+      "Salmão",
+      "Cebola Roxa",
+      "Coentro",
+      "Molho Ponzu"
+    ],
+    "img": "./img/japonesa/japonesa05.png",
+    "qtdvendidos": 115,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Sushi de Atum",
+    "preco": 19.99,
+    "categoria": "Japonesa",
+    "descricao": "Três unidades de sushi de atum fresco, servido com wasabi e gengibre.",
+    "ingredientes": [
+      "Atum",
+      "Arroz para Sushi",
+      "Alga Nori",
+      "Wasabi",
+      "Gengibre"
+    ],
+    "img": "./img/japonesa/japonesa01.png",
+    "qtdvendidos": 95,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Temaki de Salmão Grelhado",
+    "preco": 15.99,
+    "categoria": "Japonesa",
+    "descricao": "Temaki de salmão grelhado, enrolado em alga nori com arroz e cebolinha.",
+    "ingredientes": [
+      "Salmão Grelhado",
+      "Arroz para Sushi",
+      "Alga Nori",
+      "Cebolinha"
+    ],
+    "img": "./img/japonesa/japonesa02.png",
+    "qtdvendidos": 110,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Sashimi de Polvo",
+    "preco": 23.99,
+    "categoria": "Japonesa",
+    "descricao": "Seis fatias de sashimi de polvo fresco, servido com molho de soja e wasabi.",
+    "ingredientes": [
+      "Polvo",
+      "Molho de Soja",
+      "Wasabi"
+    ],
+    "img": "./img/japonesa/japonesa03.png",
+    "qtdvendidos": 80,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Yakissoba Vegetariano",
+    "preco": 22.50,
+    "categoria": "Japonesa",
+    "descricao": "Yakissoba vegetariano com uma mistura de legumes frescos e molho especial.",
+    "ingredientes": [
+      "Macarrão para Yakissoba",
+      "Legumes",
+      "Molho de Soja",
+      "Cebolinha"
+    ],
+    "img": "./img/japonesa/japonesa04.png",
+    "qtdvendidos": 105,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Uramaki de Salmão com Abacate",
+    "preco": 21.99,
+    "categoria": "Japonesa",
+    "descricao": "Oito unidades de uramaki com salmão, abacate e gergelim.",
+    "ingredientes": [
+      "Salmão",
+      "Abacate",
+      "Arroz para Sushi",
+      "Gergelim"
+    ],
+    "img": "./img/japonesa/japonesa05.png",
+    "qtdvendidos": 115,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Hot Roll de Atum",
+    "preco": 22.50,
+    "categoria": "Japonesa",
+    "descricao": "Oito unidades de hot roll de atum empanado com molho tarê.",
+    "ingredientes": [
+      "Atum",
+      "Arroz para Sushi",
+      "Farinha Panko",
+      "Molho Tarê"
+    ],
+    "img": "./img/japonesa/japonesa01.png",
+    "qtdvendidos": 95,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Nigiri de Camarão",
+    "preco": 18.99,
+    "categoria": "Japonesa",
+    "descricao": "Duas unidades de nigiri de camarão fresco, servido com molho de soja.",
+    "ingredientes": [
+      "Camarão",
+      "Arroz para Sushi",
+      "Molho de Soja"
+    ],
+    "img": "./img/japonesa/japonesa02.png",
+    "qtdvendidos": 85,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Sashimi de Camarão",
+    "preco": 24.99,
+    "categoria": "Japonesa",
+    "descricao": "Seis fatias de sashimi de camarão fresco, acompanhado de wasabi e gengibre.",
+    "ingredientes": [
+      "Camarão",
+      "Wasabi",
+      "Gengibre"
+    ],
+    "img": "./img/japonesa/japonesa03.png",
+    "qtdvendidos": 120,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Temaki de Salmão com Cebolinha",
+    "preco": 13.99,
+    "categoria": "Japonesa",
+    "descricao": "Temaki de salmão fresco com cebolinha, enrolado em alga nori com arroz.",
+    "ingredientes": [
+      "Salmão",
+      "Cebolinha",
+      "Arroz para Sushi",
+      "Alga Nori"
+    ],
+    "img": "./img/japonesa/japonesa04.png",
+    "qtdvendidos": 100,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Gyoza de Vegetais",
+    "preco": 14.50,
+    "categoria": "Japonesa",
+    "descricao": "Seis unidades de gyoza de vegetais com molho ponzu.",
+    "ingredientes": [
+      "Legumes",
+      "Massa para Gyoza",
+      "Molho Ponzu"
+    ],
+    "img": "./img/japonesa/japonesa05.png",
+    "qtdvendidos": 70,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Ceviche de Atum",
+    "preco": 22.99,
+    "categoria": "Japonesa",
+    "descricao": "Ceviche de atum com cebola roxa, coentro e molho ponzu.",
+    "ingredientes": [
+      "Atum",
+      "Cebola Roxa",
+      "Coentro",
+      "Molho Ponzu"
+    ],
+    "img": "./img/japonesa/japonesa01.png",
+    "qtdvendidos": 110,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Temaki de Polvo",
+    "preco": 16.50,
+    "categoria": "Japonesa",
+    "descricao": "Temaki de polvo com cebolinha, enrolado em alga nori com arroz e gergelim.",
+    "ingredientes": [
+      "Polvo",
+      "Cebolinha",
+      "Arroz para Sushi",
+      "Alga Nori",
+      "Gergelim"
+    ],
+    "img": "./img/japonesa/japonesa02.png",
+    "qtdvendidos": 75,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Sashimi de Salmão Grelhado",
+    "preco": 26.99,
+    "categoria": "Japonesa",
+    "descricao": "Seis fatias de sashimi de salmão grelhado, servido com molho ponzu e wasabi.",
+    "ingredientes": [
+      "Salmão Grelhado",
+      "Molho Ponzu",
+      "Wasabi"
+    ],
+    "img": "./img/japonesa/japonesa03.png",
+    "qtdvendidos": 130,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Yakissoba de Camarão",
+    "preco": 27.99,
+    "categoria": "Japonesa",
+    "descricao": "Yakissoba de camarão com legumes frescos e molho especial.",
+    "ingredientes": [
+      "Camarão",
+      "Macarrão para Yakissoba",
+      "Legumes",
+      "Molho de Soja",
+      "Cebolinha"
+    ],
+    "img": "./img/japonesa/japonesa04.png",
+    "qtdvendidos": 115,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza Margherita",
+    "preco": 29.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza clássica Margherita com molho de tomate, mussarela e manjericão fresco.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Manjericão"
+    ],
+    "img": "./img/pizza/pizza01.png",
+    "qtdvendidos": 150,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza Pepperoni",
+    "preco": 34.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com fatias de pepperoni sobre uma base de molho de tomate e queijo mussarela.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Pepperoni"
+    ],
+    "img": "./img/pizza/pizza02.png",
+    "qtdvendidos": 175,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Pizza Quatro Queijos",
+    "preco": 32.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com uma mistura de quatro queijos: mussarela, parmesão, gorgonzola e provolone.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Parmesão",
+      "Gorgonzola",
+      "Provolone"
+    ],
+    "img": "./img/pizza/pizza03.png",
+    "qtdvendidos": 140,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pizza Portuguesa",
+    "preco": 33.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com presunto, ovos, cebola, azeitonas e pimentão.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Presunto",
+      "Ovos",
+      "Cebola",
+      "Azeitonas",
+      "Pimentão"
+    ],
+    "img": "./img/pizza/pizza04.png",
+    "qtdvendidos": 165,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Calabresa",
+    "preco": 31.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com fatias de calabresa, cebola e azeitonas.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Calabresa",
+      "Cebola",
+      "Azeitonas"
+    ],
+    "img": "./img/pizza/pizza05.png",
+    "qtdvendidos": 155,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Frango com Catupiry",
+    "preco": 34.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza de frango desfiado com catupiry, coberta com molho de tomate e queijo mussarela.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Frango Desfiado",
+      "Catupiry"
+    ],
+    "img": "./img/pizza/pizza01.png",
+    "qtdvendidos": 130,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pizza de Atum",
+    "preco": 33.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza de atum com cebola, azeitonas e orégano.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Atum",
+      "Cebola",
+      "Azeitonas",
+      "Orégano"
+    ],
+    "img": "./img/pizza/pizza02.png",
+    "qtdvendidos": 110,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Rúcula com Tomate Seco",
+    "preco": 35.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com rúcula fresca, tomate seco e queijo parmesão.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Rúcula",
+      "Tomate Seco",
+      "Parmesão"
+    ],
+    "img": "./img/pizza/pizza03.png",
+    "qtdvendidos": 125,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Pizza Napolitana",
+    "preco": 29.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com molho de tomate, mussarela, alho e orégano.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Alho",
+      "Orégano"
+    ],
+    "img": "./img/pizza/pizza04.png",
+    "qtdvendidos": 145,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Bacon com Cheddar",
+    "preco": 36.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com fatias de bacon, queijo cheddar e cebola roxa.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Bacon",
+      "Cheddar",
+      "Cebola Roxa"
+    ],
+    "img": "./img/pizza/pizza05.png",
+    "qtdvendidos": 135,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pizza de Palmito",
+    "preco": 32.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com palmito, azeitonas e orégano.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Palmito",
+      "Azeitonas",
+      "Orégano"
+    ],
+    "img": "./img/pizza/pizza01.png",
+    "qtdvendidos": 120,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Pizza de Presunto e Queijo",
+    "preco": 31.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com presunto, queijo mussarela e molho de tomate.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Presunto"
+    ],
+    "img": "./img/pizza/pizza02.png",
+    "qtdvendidos": 115,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Alho e Óleo",
+    "preco": 28.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza simples e saborosa com alho frito e óleo de oliva.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Alho",
+      "Óleo de Oliva"
+    ],
+    "img": "./img/pizza/pizza03.png",
+    "qtdvendidos": 135,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pizza de Milho com Bacon",
+    "preco": 34.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com milho, fatias de bacon e queijo mussarela.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Milho",
+      "Bacon"
+    ],
+    "img": "./img/pizza/pizza04.png",
+    "qtdvendidos": 140,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Pizza Vegetariana",
+    "preco": 30.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com uma variedade de legumes frescos e queijo mussarela.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Legumes Frescos"
+    ],
+    "img": "./img/pizza/pizza05.png",
+    "qtdvendidos": 125,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Provolone com Cebola",
+    "preco": 33.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com queijo provolone e cebola roxa.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Provolone",
+      "Cebola Roxa"
+    ],
+    "img": "./img/pizza/pizza01.png",
+    "qtdvendidos": 95,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pizza de Anchovas",
+    "preco": 35.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com anchovas, azeitonas e orégano.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Anchovas",
+      "Azeitonas",
+      "Orégano"
+    ],
+    "img": "./img/pizza/pizza02.png",
+    "qtdvendidos": 80,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Pizza de Calabresa com Catupiry",
+    "preco": 36.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com fatias de calabresa, catupiry e cebola.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Calabresa",
+      "Catupiry",
+      "Cebola"
+    ],
+    "img": "./img/pizza/pizza03.png",
+    "qtdvendidos": 100,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Abobrinha com Parmesão",
+    "preco": 32.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com fatias de abobrinha, queijo parmesão e manjericão.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Abobrinha",
+      "Parmesão",
+      "Manjericão"
+    ],
+    "img": "./img/pizza/pizza04.png",
+    "qtdvendidos": 110,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pizza de Lombinho",
+    "preco": 34.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com fatias de lombinho, azeitonas e queijo mussarela.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Lombinho",
+      "Azeitonas"
+    ],
+    "img": "./img/pizza/pizza05.png",
+    "qtdvendidos": 95,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Pizza de Escarola com Alho",
+    "preco": 30.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com escarola refogada, alho e queijo parmesão.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Escarola",
+      "Alho",
+      "Parmesão"
+    ],
+    "img": "./img/pizza/pizza01.png",
+    "qtdvendidos": 85,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Palmito com Catupiry",
+    "preco": 35.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com palmito, catupiry e queijo mussarela.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Palmito",
+      "Catupiry"
+    ],
+    "img": "./img/pizza/pizza02.png",
+    "qtdvendidos": 90,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pizza de Carne Seca com Cebola",
+    "preco": 36.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com carne seca desfiada, cebola e queijo mussarela.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Carne Seca",
+      "Cebola"
+    ],
+    "img": "./img/pizza/pizza03.png",
+    "qtdvendidos": 100,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Pizza de Brócolis com Alho",
+    "preco": 31.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com brócolis refogado, alho e queijo parmesão.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Brócolis",
+      "Alho",
+      "Parmesão"
+    ],
+    "img": "./img/pizza/pizza04.png",
+    "qtdvendidos": 75,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Pepperoni com Catupiry",
+    "preco": 37.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com fatias de pepperoni, catupiry e queijo mussarela.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Pepperoni",
+      "Catupiry"
+    ],
+    "img": "./img/pizza/pizza05.png",
+    "qtdvendidos": 95,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pizza de Rúcula com Queijo Brie",
+    "preco": 39.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com rúcula fresca, queijo brie e tomate seco.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Rúcula",
+      "Queijo Brie",
+      "Tomate Seco"
+    ],
+    "img": "./img/pizza/pizza01.png",
+    "qtdvendidos": 80,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Pizza de Escarola com Tomate Seco",
+    "preco": 33.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza com escarola, tomate seco e queijo parmesão.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Escarola",
+      "Tomate Seco",
+      "Parmesão"
+    ],
+    "img": "./img/pizza/pizza02.png",
+    "qtdvendidos": 85,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Pizza de Queijo e Cebola",
+    "preco": 29.99,
+    "categoria": "Pizza",
+    "descricao": "Pizza simples com queijo mussarela e cebola caramelizada.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Cebola Caramelizada"
+    ],
+    "img": "./img/pizza/pizza03.png",
+    "qtdvendidos": 110,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Pizza de Abobrinha com Ricota",
+    "preco": 34.50,
+    "categoria": "Pizza",
+    "descricao": "Pizza com abobrinha, ricota e queijo parmesão.",
+    "ingredientes": [
+      "Molho de Tomate",
+      "Mussarela",
+      "Abobrinha",
+      "Ricota",
+      "Parmesão"
+    ],
+    "img": "./img/pizza/pizza04.png",
+    "qtdvendidos": 95,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Laranja",
+    "preco": 7.99,
+    "categoria": "Sucos",
+    "descricao": "Suco natural de laranja fresco, sem adição de açúcar.",
+    "ingredientes": [
+      "Laranja"
+    ],
+    "img": "./img/sucos/sucos01.png",
+    "qtdvendidos": 200,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Suco de Limão",
+    "preco": 6.99,
+    "categoria": "Sucos",
+    "descricao": "Suco natural de limão, refrescante e sem adição de açúcar.",
+    "ingredientes": [
+      "Limão"
+    ],
+    "img": "./img/sucos/sucos02.png",
+    "qtdvendidos": 180,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco de Morango",
+    "preco": 8.99,
+    "categoria": "Sucos",
+    "descricao": "Suco natural de morango, adoçado levemente com mel.",
+    "ingredientes": [
+      "Morango",
+      "Mel"
+    ],
+    "img": "./img/sucos/sucos03.png",
+    "qtdvendidos": 170,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Abacaxi com Hortelã",
+    "preco": 9.50,
+    "categoria": "Sucos",
+    "descricao": "Suco refrescante de abacaxi com hortelã, perfeito para dias quentes.",
+    "ingredientes": [
+      "Abacaxi",
+      "Hortelã"
+    ],
+    "img": "./img/sucos/sucos04.png",
+    "qtdvendidos": 190,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Suco de Manga",
+    "preco": 8.50,
+    "categoria": "Sucos",
+    "descricao": "Suco natural de manga, com sabor doce e encorpado.",
+    "ingredientes": [
+      "Manga"
+    ],
+    "img": "./img/sucos/sucos05.png",
+    "qtdvendidos": 160,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco Verde",
+    "preco": 10.99,
+    "categoria": "Sucos",
+    "descricao": "Suco detox de couve, limão e gengibre, ideal para revitalizar.",
+    "ingredientes": [
+      "Couve",
+      "Limão",
+      "Gengibre"
+    ],
+    "img": "./img/sucos/sucos01.png",
+    "qtdvendidos": 150,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Melancia",
+    "preco": 7.99,
+    "categoria": "Sucos",
+    "descricao": "Suco natural de melancia, muito refrescante e leve.",
+    "ingredientes": [
+      "Melancia"
+    ],
+    "img": "./img/sucos/sucos02.png",
+    "qtdvendidos": 140,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Suco de Acerola",
+    "preco": 9.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de acerola, rico em vitamina C e sabor levemente azedo.",
+    "ingredientes": [
+      "Acerola"
+    ],
+    "img": "./img/sucos/sucos03.png",
+    "qtdvendidos": 130,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco de Maracujá",
+    "preco": 8.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de maracujá, perfeito para relaxar e refrescar.",
+    "ingredientes": [
+      "Maracujá"
+    ],
+    "img": "./img/sucos/sucos04.png",
+    "qtdvendidos": 120,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Uva Integral",
+    "preco": 10.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de uva integral, sem adição de açúcar e com sabor intenso.",
+    "ingredientes": [
+      "Uva"
+    ],
+    "img": "./img/sucos/sucos05.png",
+    "qtdvendidos": 110,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Suco de Kiwi",
+    "preco": 9.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de kiwi, rico em vitamina C e com um toque azedo.",
+    "ingredientes": [
+      "Kiwi"
+    ],
+    "img": "./img/sucos/sucos01.png",
+    "qtdvendidos": 100,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco de Limão Siciliano",
+    "preco": 9.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de limão siciliano, com sabor suave e aromático.",
+    "ingredientes": [
+      "Limão Siciliano"
+    ],
+    "img": "./img/sucos/sucos02.png",
+    "qtdvendidos": 95,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Pitaya",
+    "preco": 11.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de pitaya, exótico e refrescante, com um toque doce.",
+    "ingredientes": [
+      "Pitaya"
+    ],
+    "img": "./img/sucos/sucos03.png",
+    "qtdvendidos": 90,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Suco de Laranja com Cenoura",
+    "preco": 9.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de laranja com cenoura, rico em vitaminas e antioxidantes.",
+    "ingredientes": [
+      "Laranja",
+      "Cenoura"
+    ],
+    "img": "./img/sucos/sucos04.png",
+    "qtdvendidos": 80,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco de Abacaxi com Gengibre",
+    "preco": 10.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de abacaxi com gengibre, ideal para digestão e refrescância.",
+    "ingredientes": [
+      "Abacaxi",
+      "Gengibre"
+    ],
+    "img": "./img/sucos/sucos05.png",
+    "qtdvendidos": 75,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Morango com Banana",
+    "preco": 8.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de morango com banana, cremoso e delicioso.",
+    "ingredientes": [
+      "Morango",
+      "Banana"
+    ],
+    "img": "./img/sucos/sucos01.png",
+    "qtdvendidos": 70,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Suco de Abacate",
+    "preco": 11.99,
+    "categoria": "Sucos",
+    "descricao": "Suco cremoso de abacate, adoçado com mel.",
+    "ingredientes": [
+      "Abacate",
+      "Mel"
+    ],
+    "img": "./img/sucos/sucos02.png",
+    "qtdvendidos": 65,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco de Acerola com Laranja",
+    "preco": 10.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de acerola com laranja, um boost de vitamina C.",
+    "ingredientes": [
+      "Acerola",
+      "Laranja"
+    ],
+    "img": "./img/sucos/sucos03.png",
+    "qtdvendidos": 60,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Uva com Hortelã",
+    "preco": 9.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de uva com um toque de hortelã, refrescante e único.",
+    "ingredientes": [
+      "Uva",
+      "Hortelã"
+    ],
+    "img": "./img/sucos/sucos04.png",
+    "qtdvendidos": 55,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Suco de Melão",
+    "preco": 8.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de melão, leve e refrescante, perfeito para o verão.",
+    "ingredientes": [
+      "Melão"
+    ],
+    "img": "./img/sucos/sucos05.png",
+    "qtdvendidos": 50,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco de Mamão",
+    "preco": 9.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de mamão, cremoso e rico em fibras.",
+    "ingredientes": [
+      "Mamão"
+    ],
+    "img": "./img/sucos/sucos01.png",
+    "qtdvendidos": 45,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Limão com Gengibre",
+    "preco": 7.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de limão com um toque de gengibre, refrescante e saudável.",
+    "ingredientes": [
+      "Limão",
+      "Gengibre"
+    ],
+    "img": "./img/sucos/sucos02.png",
+    "qtdvendidos": 40,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Suco de Tangerina",
+    "preco": 8.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de tangerina, doce e levemente ácido, sem adição de açúcar.",
+    "ingredientes": [
+      "Tangerina"
+    ],
+    "img": "./img/sucos/sucos03.png",
+    "qtdvendidos": 35,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco de Laranja com Acerola",
+    "preco": 9.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de laranja com acerola, combinação perfeita de sabor e saúde.",
+    "ingredientes": [
+      "Laranja",
+      "Acerola"
+    ],
+    "img": "./img/sucos/sucos04.png",
+    "qtdvendidos": 30,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Manga com Gengibre",
+    "preco": 10.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de manga com gengibre, sabor encorpado e levemente picante.",
+    "ingredientes": [
+      "Manga",
+      "Gengibre"
+    ],
+    "img": "./img/sucos/sucos05.png",
+    "qtdvendidos": 25,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Suco de Pêssego",
+    "preco": 9.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de pêssego, doce e suave, perfeito para qualquer momento.",
+    "ingredientes": [
+      "Pêssego"
+    ],
+    "img": "./img/sucos/sucos01.png",
+    "qtdvendidos": 20,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Suco de Laranja com Morango",
+    "preco": 9.99,
+    "categoria": "Sucos",
+    "descricao": "Suco de laranja com morango, combinação deliciosa e refrescante.",
+    "ingredientes": [
+      "Laranja",
+      "Morango"
+    ],
+    "img": "./img/sucos/sucos02.png",
+    "qtdvendidos": 15,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Suco de Maracujá com Hortelã",
+    "preco": 8.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de maracujá com hortelã, ideal para relaxar.",
+    "ingredientes": [
+      "Maracujá",
+      "Hortelã"
+    ],
+    "img": "./img/sucos/sucos03.png",
+    "qtdvendidos": 10,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Suco de Kiwi com Hortelã",
+    "preco": 11.50,
+    "categoria": "Sucos",
+    "descricao": "Suco de kiwi com hortelã, refrescante e rico em vitaminas.",
+    "ingredientes": [
+      "Kiwi",
+      "Hortelã"
+    ],
+    "img": "./img/sucos/sucos04.png",
+    "qtdvendidos": 5,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Refrigerante Cola",
+    "preco": 4.99,
+    "categoria": "refrigerantes",
+    "descricao": "Refrigerante de cola, clássico e refrescante.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Corante Caramelo",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes01.png",
+    "qtdvendidos": 300,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Refrigerante de Laranja",
+    "preco": 4.50,
+    "categoria": "refrigerantes",
+    "descricao": "Refrigerante de laranja, com sabor cítrico e refrescante.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Suco de Laranja",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes02.png",
+    "qtdvendidos": 250,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Refrigerante de Limão",
+    "preco": 4.50,
+    "categoria": "refrigerantes",
+    "descricao": "Refrigerante de limão, leve e refrescante.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Suco de Limão",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes03.png",
+    "qtdvendidos": 240,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Refrigerante de Uva",
+    "preco": 4.99,
+    "categoria": "refrigerantes",
+    "descricao": "Refrigerante de uva, com sabor doce e marcante.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Suco de Uva",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes04.png",
+    "qtdvendidos": 230,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Refrigerante de Guaraná",
+    "preco": 4.99,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de guaraná, clássico brasileiro.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Extrato de Guaraná",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes05.png",
+    "qtdvendidos": 220,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Refrigerante Diet Cola",
+    "preco": 4.99,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de cola versão diet, sem açúcar.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Adoçantes Artificiais",
+      "Corante Caramelo",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes01.png",
+    "qtdvendidos": 210,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Refrigerante Citrus",
+    "preco": 4.50,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante sabor citrus, uma mistura de limão e laranja.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Aromatizantes de Limão e Laranja"
+    ],
+    "img": "./img/refrigerantes/refrigerantes02.png",
+    "qtdvendidos": 200,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Refrigerante de Maçã",
+    "preco": 4.99,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante sabor maçã, doce e refrescante.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Suco de Maçã",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes03.png",
+    "qtdvendidos": 190,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Refrigerante Light de Guaraná",
+    "preco": 4.99,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de guaraná versão light, com menos calorias.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Adoçantes Artificiais",
+      "Extrato de Guaraná",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes04.png",
+    "qtdvendidos": 180,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Refrigerante de Morango",
+    "preco": 4.99,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de morango, doce e levemente ácido.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Suco de Morango",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes05.png",
+    "qtdvendidos": 170,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Refrigerante Zero Açúcar de Laranja",
+    "preco": 4.99,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de laranja sem adição de açúcar, para quem busca leveza.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Adoçantes Artificiais",
+      "Suco de Laranja",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes01.png",
+    "qtdvendidos": 160,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Refrigerante de Tangerina",
+    "preco": 4.99,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de tangerina, cítrico e refrescante.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Suco de Tangerina",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes02.png",
+    "qtdvendidos": 150,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Refrigerante de Limão com Gengibre",
+    "preco": 5.50,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de limão com um toque de gengibre, sabor único.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Suco de Limão",
+      "Gengibre"
+    ],
+    "img": "./img/refrigerantes/refrigerantes03.png",
+    "qtdvendidos": 140,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Refrigerante de Laranja com Acerola",
+    "preco": 5.50,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de laranja com acerola, uma explosão de sabor cítrico.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Suco de Laranja",
+      "Acerola"
+    ],
+    "img": "./img/refrigerantes/refrigerantes04.png",
+    "qtdvendidos": 130,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Refrigerante de Frutas Vermelhas",
+    "preco": 5.99,
+    "categoria": "Refrigerantes",
+    "descricao": "Refrigerante de frutas vermelhas, sabor marcante e refrescante.",
+    "ingredientes": [
+      "Água Gaseificada",
+      "Açúcar",
+      "Extrato de Frutas Vermelhas",
+      "Aromatizantes"
+    ],
+    "img": "./img/refrigerantes/refrigerantes05.png",
+    "qtdvendidos": 120,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Bolo de Chocolate",
+    "preco": 12.99,
+    "categoria": "Sobremesas",
+    "descricao": "Delicioso bolo de chocolate com cobertura cremosa.",
+    "ingredientes": [
+      "Chocolate",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos",
+      "Leite"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 250,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Torta de Limão",
+    "preco": 14.50,
+    "categoria": "Sobremesas",
+    "descricao": "Torta de limão com base crocante e cobertura de merengue.",
+    "ingredientes": [
+      "Limão",
+      "Leite Condensado",
+      "Biscoito",
+      "Ovos"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 220,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Pudim de Leite Condensado",
+    "preco": 10.99,
+    "categoria": "Sobremesas",
+    "descricao": "Pudim tradicional de leite condensado, coberto com calda de caramelo.",
+    "ingredientes": [
+      "Leite Condensado",
+      "Ovos",
+      "Açúcar",
+      "Leite"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 300,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Mousse de Maracujá",
+    "preco": 11.50,
+    "categoria": "Sobremesas",
+    "descricao": "Mousse leve de maracujá com calda de maracujá fresco.",
+    "ingredientes": [
+      "Maracujá",
+      "Leite Condensado",
+      "Creme de Leite"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 180,
+    "desconto": 0.1
+  },
+  {
+    "nome": "Cheesecake de Morango",
+    "preco": 15.99,
+    "categoria": "Sobremesas",
+    "descricao": "Cheesecake cremoso com cobertura de morango.",
+    "ingredientes": [
+      "Cream Cheese",
+      "Biscoito",
+      "Morango",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas05.png",
+    "qtdvendidos": 210,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Brigadeiro Gourmet",
+    "preco": 3.50,
+    "categoria": "Sobremesas",
+    "descricao": "Brigadeiro tradicional feito com chocolate belga.",
+    "ingredientes": [
+      "Leite Condensado",
+      "Chocolate Belga",
+      "Manteiga"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 350,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Beijinho",
+    "preco": 3.50,
+    "categoria": "Sobremesas",
+    "descricao": "Doce de leite condensado com coco ralado.",
+    "ingredientes": [
+      "Leite Condensado",
+      "Coco Ralado",
+      "Manteiga"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 340,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Quindim",
+    "preco": 5.99,
+    "categoria": "Sobremesas",
+    "descricao": "Sobremesa brasileira à base de gemas de ovo e coco.",
+    "ingredientes": [
+      "Gemas de Ovo",
+      "Coco Ralado",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 200,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Tiramisu",
+    "preco": 17.99,
+    "categoria": "Sobremesas",
+    "descricao": "Sobremesa italiana feita com café, mascarpone e cacau.",
+    "ingredientes": [
+      "Mascarpone",
+      "Café",
+      "Biscoito Champagne",
+      "Cacau"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 160,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Bolo de Cenoura com Cobertura de Chocolate",
+    "preco": 12.50,
+    "categoria": "Sobremesas",
+    "descricao": "Bolo de cenoura fofinho com cobertura de chocolate.",
+    "ingredientes": [
+      "Cenoura",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos",
+      "Chocolate"
+    ],
+    "img": "./img/sobremesa/sobremesas05.png",
+    "qtdvendidos": 230,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Brownie de Chocolate",
+    "preco": 8.99,
+    "categoria": "Sobremesas",
+    "descricao": "Brownie de chocolate com pedaços de nozes.",
+    "ingredientes": [
+      "Chocolate",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos",
+      "Nozes"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 250,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Pavê de Chocolate",
+    "preco": 13.50,
+    "categoria": "Sobremesas",
+    "descricao": "Pavê de chocolate cremoso com camadas de biscoito.",
+    "ingredientes": [
+      "Chocolate",
+      "Leite Condensado",
+      "Biscoito",
+      "Creme de Leite"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 240,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Sorvete de Baunilha",
+    "preco": 7.99,
+    "categoria": "Sobremesas",
+    "descricao": "Sorvete cremoso de baunilha, perfeito para qualquer ocasião.",
+    "ingredientes": [
+      "Leite",
+      "Açúcar",
+      "Baunilha"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 220,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Sorvete de Chocolate",
+    "preco": 7.99,
+    "categoria": "Sobremesas",
+    "descricao": "Sorvete de chocolate cremoso, feito com cacau de alta qualidade.",
+    "ingredientes": [
+      "Leite",
+      "Açúcar",
+      "Cacau"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 210,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Torta de Maçã",
+    "preco": 14.99,
+    "categoria": "Sobremesas",
+    "descricao": "Torta de maçã clássica com uma crosta crocante e recheio doce.",
+    "ingredientes": [
+      "Maçã",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Canela",
+      "Manteiga"
+    ],
+    "img": "./img/sobremesa/sobremesas05.png",
+    "qtdvendidos": 190,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Petit Gâteau",
+    "preco": 12.99,
+    "categoria": "Sobremesas",
+    "descricao": "Pequeno bolo de chocolate servido quente com recheio cremoso e acompanhado de sorvete.",
+    "ingredientes": [
+      "Chocolate",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos",
+      "Manteiga"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 180,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Cocada Cremosa",
+    "preco": 6.50,
+    "categoria": "Sobremesas",
+    "descricao": "Doce cremoso de coco, tradicional da culinária brasileira.",
+    "ingredientes": [
+      "Coco",
+      "Leite Condensado",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 300,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Pudim de Chocolate",
+    "preco": 11.99,
+    "categoria": "Sobremesas",
+    "descricao": "Pudim cremoso de chocolate com calda de caramelo.",
+    "ingredientes": [
+      "Leite Condensado",
+      "Chocolate",
+      "Ovos",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 250,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Gelatina Colorida",
+    "preco": 5.99,
+    "categoria": "Sobremesas",
+    "descricao": "Gelatina colorida com várias camadas de sabores.",
+    "ingredientes": [
+      "Gelatina",
+      "Açúcar",
+      "Água"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 270,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Manjar de Coco",
+    "preco": 9.99,
+    "categoria": "Sobremesas",
+    "descricao": "Manjar branco de coco, servido com calda de ameixa.",
+    "ingredientes": [
+      "Leite de Coco",
+      "Açúcar",
+      "Ameixa"
+    ],
+    "img": "./img/sobremesa/sobremesas05.png",
+    "qtdvendidos": 240,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Torta Holandesa",
+    "preco": 16.50,
+    "categoria": "Sobremesas",
+    "descricao": "Torta cremosa com base de biscoito e cobertura de chocolate.",
+    "ingredientes": [
+      "Biscoito",
+      "Chocolate",
+      "Creme de Leite",
+      "Manteiga"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 190,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Bolo de Laranja",
+    "preco": 10.99,
+    "categoria": "Sobremesas",
+    "descricao": "Bolo fofinho de laranja, com cobertura de glacê.",
+    "ingredientes": [
+      "Laranja",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 220,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Rocambole de Doce de Leite",
+    "preco": 14.99,
+    "categoria": "Sobremesas",
+    "descricao": "Rocambole de massa fofinha, recheado com doce de leite.",
+    "ingredientes": [
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos",
+      "Doce de Leite"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 240,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Mousse de Chocolate",
+    "preco": 11.50,
+    "categoria": "Sobremesas",
+    "descricao": "Mousse aerado de chocolate, com sabor intenso.",
+    "ingredientes": [
+      "Chocolate",
+      "Ovos",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 230,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Sorvete de Morango",
+    "preco": 7.99,
+    "categoria": "Sobremesas",
+    "descricao": "Sorvete cremoso de morango, com pedaços de fruta.",
+    "ingredientes": [
+      "Leite",
+      "Morango",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas05.png",
+    "qtdvendidos": 200,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Bolo de Coco",
+    "preco": 12.99,
+    "categoria": "Sobremesas",
+    "descricao": "Bolo úmido de coco, com cobertura de coco ralado.",
+    "ingredientes": [
+      "Coco",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 220,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Torta de Morango",
+    "preco": 14.50,
+    "categoria": "Sobremesas",
+    "descricao": "Torta de morango com creme de confeiteiro e gelatina de morango.",
+    "ingredientes": [
+      "Morango",
+      "Creme de Confeiteiro",
+      "Biscoito",
+      "Gelatina"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 210,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Sorvete de Coco",
+    "preco": 8.99,
+    "categoria": "Sobremesas",
+    "descricao": "Sorvete cremoso de coco, com lascas de coco ralado.",
+    "ingredientes": [
+      "Leite",
+      "Coco",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 180,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Torta de Chocolate",
+    "preco": 16.99,
+    "categoria": "Sobremesas",
+    "descricao": "Torta rica de chocolate com cobertura cremosa.",
+    "ingredientes": [
+      "Chocolate",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 170,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Bolo de Banana",
+    "preco": 11.99,
+    "categoria": "Sobremesas",
+    "descricao": "Bolo caseiro de banana, com cobertura de açúcar e canela.",
+    "ingredientes": [
+      "Banana",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos",
+      "Canela"
+    ],
+    "img": "./img/sobremesa/sobremesas05.png",
+    "qtdvendidos": 200,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Pavê de Morango",
+    "preco": 13.99,
+    "categoria": "Sobremesas",
+    "descricao": "Pavê cremoso de morango com camadas de biscoito.",
+    "ingredientes": [
+      "Morango",
+      "Leite Condensado",
+      "Biscoito",
+      "Creme de Leite"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 190,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Brigadeirão",
+    "preco": 14.50,
+    "categoria": "Sobremesas",
+    "descricao": "Brigadeirão assado, cremoso e com cobertura de chocolate granulado.",
+    "ingredientes": [
+      "Leite Condensado",
+      "Chocolate",
+      "Ovos",
+      "Manteiga"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 170,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Rabanada",
+    "preco": 6.50,
+    "categoria": "Sobremesas",
+    "descricao": "Rabanada frita, polvilhada com açúcar e canela.",
+    "ingredientes": [
+      "Pão",
+      "Leite",
+      "Ovos",
+      "Açúcar",
+      "Canela"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 250,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Sorvete de Pistache",
+    "preco": 9.50,
+    "categoria": "Sobremesas",
+    "descricao": "Sorvete de pistache cremoso, feito com pistaches de qualidade.",
+    "ingredientes": [
+      "Leite",
+      "Pistache",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 220,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Torta de Banana",
+    "preco": 15.99,
+    "categoria": "Sobremesas",
+    "descricao": "Torta de banana com canela, doce e aromática.",
+    "ingredientes": [
+      "Banana",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Manteiga",
+      "Canela"
+    ],
+    "img": "./img/sobremesa/sobremesas05.png",
+    "qtdvendidos": 200,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Bolo Red Velvet",
+    "preco": 16.50,
+    "categoria": "Sobremesas",
+    "descricao": "Bolo Red Velvet com cream cheese, macio e irresistível.",
+    "ingredientes": [
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos",
+      "Corante Vermelho",
+      "Cream Cheese"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 190,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Sorvete de Menta com Chocolate",
+    "preco": 8.99,
+    "categoria": "Sobremesas",
+    "descricao": "Sorvete refrescante de menta com pedaços de chocolate.",
+    "ingredientes": [
+      "Leite",
+      "Menta",
+      "Chocolate",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 180,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Bolo de Abacaxi",
+    "preco": 12.50,
+    "categoria": "Sobremesas",
+    "descricao": "Bolo de abacaxi com cobertura cremosa e pedaços de abacaxi.",
+    "ingredientes": [
+      "Abacaxi",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Ovos"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 160,
+    "desconto": 0.05
+  },
+  {
+    "nome": "Torta de Nozes",
+    "preco": 18.99,
+    "categoria": "Sobremesas",
+    "descricao": "Torta de nozes com recheio cremoso e cobertura de chantilly.",
+    "ingredientes": [
+      "Nozes",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Chantilly"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 150,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Sorvete de Frutas Vermelhas",
+    "preco": 9.50,
+    "categoria": "Sobremesas",
+    "descricao": "Sorvete de frutas vermelhas, com sabor marcante e refrescante.",
+    "ingredientes": [
+      "Leite",
+      "Frutas Vermelhas",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas05.png",
+    "qtdvendidos": 140,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Mousse de Limão",
+    "preco": 10.99,
+    "categoria": "Sobremesas",
+    "descricao": "Mousse leve e aerado de limão, com sabor cítrico e refrescante.",
+    "ingredientes": [
+      "Limão",
+      "Leite Condensado",
+      "Creme de Leite"
+    ],
+    "img": "./img/sobremesa/sobremesas01.png",
+    "qtdvendidos": 130,
+    "desconto": 0.15
+  },
+  {
+    "nome": "Pudim de Café",
+    "preco": 12.50,
+    "categoria": "Sobremesas",
+    "descricao": "Pudim de café, cremoso e com sabor marcante.",
+    "ingredientes": [
+      "Café",
+      "Leite Condensado",
+      "Ovos",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas02.png",
+    "qtdvendidos": 120,
+    "desconto": 0.2
+  },
+  {
+    "nome": "Torta de Abacaxi",
+    "preco": 14.99,
+    "categoria": "Sobremesas",
+    "descricao": "Torta de abacaxi com creme de confeiteiro e cobertura de chantilly.",
+    "ingredientes": [
+      "Abacaxi",
+      "Farinha de Trigo",
+      "Açúcar",
+      "Chantilly"
+    ],
+    "img": "./img/sobremesa/sobremesas03.png",
+    "qtdvendidos": 110,
+    "desconto": 0.0
+  },
+  {
+    "nome": "Sorvete de Banana",
+    "preco": 8.50,
+    "categoria": "Sobremesas",
+    "descricao": "Sorvete de banana, cremoso e doce, com pedaços de fruta.",
+    "ingredientes": [
+      "Leite",
+      "Banana",
+      "Açúcar"
+    ],
+    "img": "./img/sobremesa/sobremesas04.png",
+    "qtdvendidos": 100,
+    "desconto": 0.15
+  }
+]
