@@ -27,6 +27,12 @@
   box-shadow: 4px 4px 4px rgb(0, 0, 0,0.2);
 
   border-radius: 5px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.promocao_cards .promocao_card:hover {
+  transform: scale(1.05);
 }
 
 .promocao_card .promocao_card_img {
