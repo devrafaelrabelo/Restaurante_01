@@ -12,6 +12,7 @@ export default class MenuMobile {
   }
 
   eventToggleMenuMobile(e) {
+    e.preventDefault()
     this.toggleMenuMobile()
   }
 
@@ -25,3 +26,6 @@ export default class MenuMobile {
     this.addEvents();
   }
 }
+
+
+// Começar o OustiseClick
