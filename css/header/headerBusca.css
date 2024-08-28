@@ -23,4 +23,6 @@
 
 .header_busca .btn {
   border: none;
+  cursor: pointer;
+
 }
