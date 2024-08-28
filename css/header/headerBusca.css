@@ -18,7 +18,7 @@
 }
 
 .header_busca input:focus {
-  border: solid 3px #EA1D2C;
+  border: solid 2px #ea1d2b70;
 }
 
 .header_busca .btn {
