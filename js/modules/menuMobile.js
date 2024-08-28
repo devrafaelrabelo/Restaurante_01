@@ -1,4 +1,4 @@
-import outsideclick from "./outsideclick";
+import outsideclick from "./outsideclick.js";
 
 export default class MenuMobile {
   constructor() {
@@ -11,10 +11,14 @@ export default class MenuMobile {
   }
 
   toggleMenuMobile() {
-    this.menuList.classList.toggle('ativo')
-    this.btnMenu.classList.toggle('ativo')
-    outsideclick();
+    this.menuList.classList.add('ativo')
+    this.btnMenu.classList.add('ativo')
+    outsideclick(this.menuList, this.events, () => {
+      this.menuList.classList.remove('ativo')
+      this.btnMenu.classList.remove('ativo')
+    });
   }
+
 
   eventToggleMenuMobile(e) {
     e.preventDefault()
