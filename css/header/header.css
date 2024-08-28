@@ -1,0 +1,54 @@
+/* Configuração Padrão do Headers */
+
+.header {
+  width: 100%;
+  margin-top: .5rem;
+}
+
+.header .header_container {
+  width: min(100%, 1280px);  
+
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header_container .header_logo_link {
+  display: block;
+  width: 72px;
+  height: 72px;
+}
+
+.header_nav .menu_icon {  
+  width: 56px;
+  height: 56px;
+  background-color: #000000;
+
+  border: none;
+  border-radius: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+
+  cursor: pointer;
+}
+
+.header_nav .menu_icon::before {
+  content: '';
+  display: inline-block;
+  height: 3px;
+  width: 30px;
+  background-color: #fff;
+  box-shadow: 0 6px 0 #fff, 0 -6px 0 #fff;
+  transition: transform .3s;  
+}
+
+.header_nav .menu_mobile {
+  display: none;
+}
+
+.header_nav .menu_mobile.ativo {
+  display: block;
+}
