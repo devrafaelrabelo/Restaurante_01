@@ -11,4 +11,7 @@
 @import './banner/banner.css';
 
 /* Menu Categoria */
-@import './menu/menuCategoria.css'
+@import './menu/menuCategoria.css';
+
+/* Recomendados */
+@import './recomendados/recomendados.css';

@@ -1,0 +1,77 @@
+.recomendados {
+  margin: 1rem;
+}
+
+.recomendados_container {
+  margin: auto;
+  width: min(100%, 1200px);
+}
+
+.recomendados_container .recomendados_title {
+  font-size: 1.5rem;
+}
+
+.recomendados_container .recomendados_cards {
+  margin-top: .5rem;  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;  
+}
+
+.recomendados_cards .recomendados_card {
+  position: relative;
+  width: 250px;
+  margin: auto;
+
+  box-shadow: 4px 4px 4px rgb(0, 0, 0,0.2);
+
+  border-radius: 5px;
+}
+
+.recomendados_card .recomendados_card_img {
+  width: 250px;
+  height: 200px;
+}
+
+.recomendados_card .recomendados_card_img img {
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.recomendados_card .recomendados_card_infos {
+  width: 250px;
+  height: 150px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
+}
+
+.recomendados_card_infos p:nth-child(2) {
+  padding-bottom: 2rem;
+}
+
+.recomendados_card_infos p:nth-child(3) {
+  font-size: 1.125rem;
+  padding-bottom: 1rem;
+}
+
+.recomendados_card .recomendados_card_infos p span {
+  color: #EA1D2C;
+  font-size: .750rem;
+  text-decoration: line-through;
+}
+
+
+
+.recomendados_card_infos p:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: .700rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+
