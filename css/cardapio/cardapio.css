@@ -1,0 +1,111 @@
+.cardapio {
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cardapio_container {
+  margin: auto;
+  width: min(100%, 1200px);
+}
+
+.cardapio_container .cardapio_filtro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardapio_container .filter input {
+  padding: 0.1rem 0.5rem;
+}
+
+.cardapio_filtro .organizado {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.cardapio_filtro .organizado li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  padding: 1rem .5rem;
+  height: 24px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.cardapio_filtro .organizado img {
+  width: 40px;
+  height: 30px;
+}
+
+
+.cardapio_container .cardapio_cards {
+  margin-top: .5rem;  
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;  
+}
+
+.cardapio_cards .cardapio_card {
+  position: relative;
+  width: 250px;
+  margin: auto;
+
+  box-shadow: 4px 4px 4px rgb(0, 0, 0,0.2);
+
+  border-radius: 5px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.cardapio_cards .cardapio_card:hover {
+  transform: scale(1.05);
+}
+
+.cardapio_card .cardapio_card_img {
+  width: 250px;
+  height: 200px;
+}
+
+.cardapio_card .cardapio_card_img img {
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.cardapio_card .cardapio_card_infos {
+  width: 250px;
+  height: 150px;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
+}
+
+.cardapio_card_infos p:nth-child(2) {
+  padding-bottom: 2rem;
+}
+
+.cardapio_card_infos p:nth-child(3) {
+  font-size: 1.125rem;
+  padding-bottom: 1rem;
+}
+
+.cardapio_card .cardapio_card_infos p span {
+  color: #EA1D2C;
+  font-size: .750rem;
+  text-decoration: line-through;
+}
+
+.cardapio_card_infos p:last-child {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: .700rem;
+  padding-right: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+
