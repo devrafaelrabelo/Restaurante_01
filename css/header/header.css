@@ -39,6 +39,8 @@
   background-size: cover;
 
 
+  transition: all 0.3s;
+
   cursor: pointer;  
 }
 
