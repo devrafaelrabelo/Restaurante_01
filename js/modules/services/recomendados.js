@@ -22,7 +22,9 @@ export default class Recomendados {
           <div class="recomendados_card_infos">
             <h3>${this.cardapio[i].nome}</h3>
             <p>${this.cardapio[i].descricao}.</p>
-            <p>${this.cardapio[i].preco} <span>R$ 3.5</span></p>
+
+            ${this.cardapio[i].desconto > 0 ? `<p>R$ ${(this.cardapio[i].preco * (1 - this.cardapio[i].desconto)).toFixed(2)}<span>R$ ${this.cardapio[i].preco.toFixed(2)} </span></p>` : `<p>R$  ${this.cardapio[i].preco.toFixed(2)} </p>`}
+            
             <p>VENDIDOS: ${this.cardapio[i].qtdvendidos}</p>
           </div>
         </div>`
