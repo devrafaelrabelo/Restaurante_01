@@ -85,7 +85,7 @@ export default class CardapioSearch {
     return this.cardapio
   }
 
-  retornaAZ() {    
+  retornaAZ() {
     this.cardapio.sort((a, b) => a.nome.localeCompare(b.nome))
 
     this.preencherCardapio(this.cardapio)
@@ -101,7 +101,7 @@ export default class CardapioSearch {
     return this.cardapio
   }
 
-  retornaMaiorV() {    
+  retornaMaiorV() {
     this.cardapio.sort((a, b) => (a.preco * (1 - a.desconto)) < (b.preco * (1 - b.desconto)) ? 1 : -1)
 
     this.preencherCardapio(this.cardapio)

@@ -1,7 +1,13 @@
+import Produto from "./produto.js";
+
 export default class Recomendados {
   constructor(cardapio) {
     this.cardapio = [...cardapio];
     this.recomandosList = document.querySelector('.recomendados_cards')
+
+    setTimeout(() => {
+      const produto = new Produto(this.cardapio, '.recomendados_card').init()
+    })   
   }
 
   retornaRecomendados() {
