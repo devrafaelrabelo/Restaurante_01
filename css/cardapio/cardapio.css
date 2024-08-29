@@ -77,7 +77,7 @@
 
 .cardapio_card .cardapio_card_infos {
   width: 250px;
-  height: 150px;
+  height: 200px;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   display: flex;
   flex-direction: column;
