@@ -62,11 +62,13 @@
 .recomendados_card_infos p:nth-child(3) {
   font-size: 1.125rem;
   padding-bottom: 1rem;
+  display: flex;
 }
 
 .recomendados_card .recomendados_card_infos p span {
   color: #EA1D2C;
-  font-size: .750rem;
+  font-size: .875rem;
+  margin-left: .2rem;
   text-decoration: line-through;
 }
 
