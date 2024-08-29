@@ -24,3 +24,6 @@
 
 /* Produto */
 @import './produto/produto.css';
+
+/* Carrinho */
+@import './carrinho/carrinho.css';
