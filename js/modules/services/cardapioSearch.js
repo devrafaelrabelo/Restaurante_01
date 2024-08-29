@@ -3,6 +3,7 @@ export default class CardapioSearch {
     this.cardapio = [...cardapio]
     this.cardapioPrincipal = document.querySelector('.cardapio_cards')
     this.search = window.location.href.split('?search=')[1]
+    this.categoria = window.location.href.split('?categoria=')[1]
   }
 
   retornaSearch() {
@@ -11,7 +12,17 @@ export default class CardapioSearch {
         return produto
     })
 
-    this.preencherCardapio()
+    this.preencherCardapio(cardapio)
+    return cardapio
+  }
+
+  retornaCategoria() {
+    const cardapio = this.cardapio.filter((produto) => {
+      if (produto.categoria.toLowerCase().includes(this.categoria.toLowerCase()))
+        return produto
+    })
+
+    this.preencherCardapio(cardapio)
     return cardapio
   }
 
@@ -32,16 +43,16 @@ export default class CardapioSearch {
         </div>
       </div>`
     })
+
   }
-
-
-
-
 
   init() {
     if (this.search) {
       console.log(this.search)
       console.log(this.retornaSearch())
+    } else if (this.categoria) {
+      console.log(this.categoria)
+      console.log(this.retornaCategoria())
     }
     console.log(this.cardapioPrincipal)
 
