@@ -48,7 +48,7 @@
 
 .promocao_card .promocao_card_infos {
   width: 250px;
-  height: 150px;
+  height: 200px;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   display: flex;
   flex-direction: column;
@@ -62,11 +62,13 @@
 .promocao_card_infos p:nth-child(3) {
   font-size: 1.125rem;
   padding-bottom: 1rem;
+  display: flex;
 }
 
 .promocao_card .promocao_card_infos p span {
   color: #EA1D2C;
-  font-size: .750rem;
+  font-size: .875rem;
+  margin-left: .2rem;
   text-decoration: line-through;
 }
 
