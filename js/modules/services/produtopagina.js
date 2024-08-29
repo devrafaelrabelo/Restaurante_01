@@ -11,7 +11,7 @@ export default class PaginaProduto {
           </figure>
           <div class="produto_infos">
             <h3 class="produto_infos_title">${produtoPagina.nome}</h3>
-            <p class="produto_infos_preco">R$ 2.80 <span>R$ ${produtoPagina.preco}</span></p>
+            <p class="produto_infos_preco">R$ ${(produtoPagina.preco * (1 - produtoPagina.desconto)).toFixed(2)} <span>R$ ${produtoPagina.preco.toFixed(2)}</span></p>
             <div class="quantidade">
               <button class="btn_aumentar"> - </button>
               <span class="quantidade_item"> 1 </span>
@@ -19,7 +19,7 @@ export default class PaginaProduto {
             </div>
             <div class="produto_infos_sobre">
               <h4>Sobre</h4>
-              <p>${produtoPagina.descricao}.
+              <p>${produtoPagina.descricao}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat doloremque ex,
                 sint quam reprehenderit error veritatis optio, reiciendis quibusdam autem quae.
                 Dolor fugiat fuga quas beatae recusandae tempora ut nam.
