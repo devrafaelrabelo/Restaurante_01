@@ -82,15 +82,15 @@ export default class CardapioSearch {
       this.preencherCardapio(cardapio)
     }
 
-    return cardapio
+    return this.cardapio
   }
 
-  retornaAZ() {
+  retornaAZ() {    
     this.cardapio.sort((a, b) => a.nome.localeCompare(b.nome))
 
     this.preencherCardapio(this.cardapio)
 
-    return cardapio
+    return this.cardapio
   }
 
   retornaZA() {
@@ -98,15 +98,15 @@ export default class CardapioSearch {
 
     this.preencherCardapio(this.cardapio)
 
-    return cardapio
+    return this.cardapio
   }
 
-  retornaMaiorV() {
+  retornaMaiorV() {    
     this.cardapio.sort((a, b) => (a.preco * (1 - a.desconto)) < (b.preco * (1 - b.desconto)) ? 1 : -1)
 
     this.preencherCardapio(this.cardapio)
 
-    return cardapio
+    return this.cardapio
   }
 
   retornaMenorV() {
@@ -114,8 +114,9 @@ export default class CardapioSearch {
 
     this.preencherCardapio(this.cardapio)
 
-    return cardapio
+    return this.cardapio
   }
+
 
   addEvents() {
     if (this.btndesconto) {
