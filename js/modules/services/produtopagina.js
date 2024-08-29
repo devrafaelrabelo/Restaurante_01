@@ -4,7 +4,7 @@ export default class PaginaProduto {
     this.produtoCard = document.querySelector(".produto_container")
   }
 
-  imprimir(produtoPagina) {
+  preencherProduto(produtoPagina) {
     this.produtoCard.innerHTML = `
         <figure class="produto_img">
             <img src="${produtoPagina.img}" alt="${produtoPagina.nome}" width="650" height="500">
@@ -34,7 +34,7 @@ export default class PaginaProduto {
   retornaProduto(name) {
     const produto = this.cardapio.filter(p => p.nome.toLowerCase() === name.toLowerCase()
     )
-    this.imprimir(...produto)
+    this.preencherProduto(...produto)
   }
 
   init() {
