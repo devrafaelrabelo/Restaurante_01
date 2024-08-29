@@ -8,7 +8,9 @@ export default class CardapioSearch {
 
   retornaSearch() {
     const cardapio = this.cardapio.filter((produto) => {
-      if (produto.nome.toLowerCase().includes(this.search.toLowerCase()))
+      if (produto.categoria.toLowerCase().includes(this.search.toLowerCase()) ||
+        produto.descricao.toLowerCase().includes(this.search.toLowerCase()) ||
+        produto.nome.toLowerCase().includes(this.search.toLowerCase()))
         return produto
     })
 
@@ -51,7 +53,7 @@ export default class CardapioSearch {
       this.retornaSearch()
     } else if (this.categoria) {
       this.retornaCategoria()
-    }    
+    }
 
     return this
   }
