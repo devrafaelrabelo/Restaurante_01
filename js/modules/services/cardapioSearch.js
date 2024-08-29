@@ -48,13 +48,10 @@ export default class CardapioSearch {
 
   init() {
     if (this.search) {
-      console.log(this.search)
-      console.log(this.retornaSearch())
+      this.retornaSearch()
     } else if (this.categoria) {
-      console.log(this.categoria)
-      console.log(this.retornaCategoria())
-    }
-    console.log(this.cardapioPrincipal)
+      this.retornaCategoria()
+    }    
 
     return this
   }
