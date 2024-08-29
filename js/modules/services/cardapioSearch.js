@@ -10,12 +10,22 @@ export default class CardapioSearch {
     const cardapio = this.cardapio.filter((produto) => {
       if (produto.categoria.toLowerCase().includes(this.search.toLowerCase()) ||
         produto.descricao.toLowerCase().includes(this.search.toLowerCase()) ||
-        produto.nome.toLowerCase().includes(this.search.toLowerCase()))
+        produto.nome.toLowerCase().includes(this.search.toLowerCase()) || this.verificaNosIngredientes(produto.ingredientes))
         return produto
     })
 
     this.preencherCardapio(cardapio)
     return cardapio
+  }
+
+  verificaNosIngredientes(ingredientes) {
+    let validation = false
+    ingredientes.forEach(ingrediente => {
+      if (ingrediente.toLowerCase().includes(this.search.toLowerCase())) {
+        validation = true
+      }
+    });
+    return validation
   }
 
   retornaCategoria() {
@@ -49,10 +59,14 @@ export default class CardapioSearch {
   }
 
   init() {
-    if (this.search) {
-      this.retornaSearch()
-    } else if (this.categoria) {
-      this.retornaCategoria()
+    if (this.cardapioPrincipal) {
+      if (this.search) {
+        this.retornaSearch()
+      } else if (this.categoria) {
+        this.retornaCategoria()
+      } else {
+        this.preencherCardapio(this.cardapio)
+      }
     }
 
     return this
