@@ -91,11 +91,13 @@
 .cardapio_card_infos p:nth-child(3) {
   font-size: 1.125rem;
   padding-bottom: 1rem;
+  display: flex;
 }
 
 .cardapio_card .cardapio_card_infos p span {
   color: #EA1D2C;
   font-size: .750rem;
+  margin-left: .2rem;
   text-decoration: line-through;
 }
 
