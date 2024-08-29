@@ -1,4 +1,5 @@
 import shuffle from '../auxiliares/funcaoAuxiliares.js'
+import Produto from './produto.js';
 
 export default class Promocao {
   constructor(cardapio) {
@@ -34,6 +35,9 @@ export default class Promocao {
           </div>
         </div>`
     }
+
+    const produto = new Produto(this.cardapio, '.promocao_card').init()
+
   }
 
   init() {

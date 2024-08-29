@@ -1,3 +1,5 @@
+import Produto from './produto.js';
+
 export default class CardapioSearch {
   constructor(cardapio) {
     this.cardapio = [...cardapio]
@@ -10,6 +12,7 @@ export default class CardapioSearch {
     this.btnza = document.querySelector('.btnza')
     this.btnmenor = document.querySelector('.btnmenor')
     this.btnmaior = document.querySelector('.btnmaior')
+
   }
 
   retornaSearch() {
@@ -66,6 +69,8 @@ export default class CardapioSearch {
         </div>
       </div>`
     })
+
+    const produto = new Produto(this.cardapio, '.cardapio_card').init()
 
   }
 

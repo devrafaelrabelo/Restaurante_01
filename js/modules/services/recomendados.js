@@ -4,10 +4,6 @@ export default class Recomendados {
   constructor(cardapio) {
     this.cardapio = [...cardapio];
     this.recomandosList = document.querySelector('.recomendados_cards')
-
-    setTimeout(() => {
-      const produto = new Produto(this.cardapio, '.recomendados_card').init()
-    })   
   }
 
   retornaRecomendados() {
@@ -35,6 +31,8 @@ export default class Recomendados {
           </div>
         </div>`
     }
+
+    const produto = new Produto(this.cardapio, '.recomendados_card').init()
   }
 
 
