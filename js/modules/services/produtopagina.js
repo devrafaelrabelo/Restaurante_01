@@ -18,7 +18,7 @@ export default class PaginaProduto {
             <p class="produto_infos_preco">R$ ${(produtoPagina.preco * (1 - produtoPagina.desconto)).toFixed(2)} <span>R$ ${produtoPagina.preco.toFixed(2)}</span></p>
             <div class="quantidade">
               <button class="btn_diminuir"> - </button>
-              <span class="quantidade_item"> 2 </span>
+              <span class="quantidade_item"> 1 </span>
               <button class="btn_aumentar"> + </button>
             </div>
             <div class="produto_infos_sobre">

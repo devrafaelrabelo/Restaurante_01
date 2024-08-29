@@ -1,6 +1,6 @@
-export default class Carrinho{
+export default class Carrinho {
   constructor() {
-    
+
   }
 
   init() {
