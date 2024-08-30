@@ -1,3 +1,5 @@
+import Pedido from "./pedido.js"
+
 export default class Carrinho {
   constructor() {
     this.carrinho = JSON.parse(localStorage.getItem('carrinho'))
@@ -10,6 +12,7 @@ export default class Carrinho {
     this.eventExcluirProduto = this.eventExcluirProduto.bind(this)
     this.eventDiminuirProduto = this.eventDiminuirProduto.bind(this)
     this.eventAumentarProduto = this.eventAumentarProduto.bind(this)
+    this.eventFinalizarPedido = this.eventFinalizarPedido.bind(this)
   }
 
   preencherCarrinho(carrinhoProdutos) {
@@ -129,6 +132,16 @@ export default class Carrinho {
     this.carrinhoTotal.innerText = this.atualizarTotal()
   }
 
+  finalizarPedido() {
+    const pedido = new Pedido(this.carrinho).init()
+  }
+
+  eventFinalizarPedido(e) {
+    e.preventDefault()
+    console.log('Event')
+    this.finalizarPedido()
+  }
+
   addEvents() {
     this.btnDiminuir = document.querySelectorAll('.btnDiminuir')
     this.btnAumentar = document.querySelectorAll('.btnAumentar')
@@ -146,11 +159,14 @@ export default class Carrinho {
       }))
     }
 
+    this.btnfinalizarPedido = document.querySelector('.carrinho_finalizar')
+    this.btnfinalizarPedido.addEventListener('click', this.eventFinalizarPedido)
+
     this.preencherValores()
   }
 
   init() {
-    if (this.carrinhoCard) {
+    if (this.carrinhoCard && this.carrinho) {
       this.preencherCarrinho(this.carrinho)
       setTimeout(() => {
         this.addEvents()
