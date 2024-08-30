@@ -30,3 +30,6 @@
 
 /* Painel */
 @import './painel/painel.css';
+
+/* Login */
+@import './login/login.css';

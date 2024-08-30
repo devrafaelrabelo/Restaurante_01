@@ -9,7 +9,7 @@ export default function outsideclick(element, events, callback) {
     element.setAttribute(outside, '')
   }
 
-  function handleOutsideClick(e) {
+  function handleOutsideClick(e) {    
     if (!element.contains(e.target)) {
       element.removeAttribute(outside)
       events.forEach(userEvent => {

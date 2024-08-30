@@ -19,7 +19,6 @@ export default class MenuMobile {
     });
   }
 
-
   eventToggleMenuMobile(e) {
     e.preventDefault()
     this.toggleMenuMobile()
