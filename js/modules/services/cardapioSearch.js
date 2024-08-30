@@ -3,8 +3,9 @@ import Produto from './produto.js';
 export default class CardapioSearch {
   constructor(cardapio) {
     this.cardapio = [...cardapio]
+    this.cardapioUltimo;
     this.cardapioPrincipal = document.querySelector('.cardapio_cards')
-    this.search = window.location.href.split('?search=')[1].replaceAll('+', ' ')
+    this.search = window.location.href.split('?search=')[1] ? window.location.href.split('?search=')[1].replaceAll('+', ' ') : window.location.href.split('?search=')[1]
     this.categoria = window.location.href.split('?categoria=')[1]
 
     this.btndesconto = document.querySelector('.btndesconto')
@@ -12,7 +13,10 @@ export default class CardapioSearch {
     this.btnza = document.querySelector('.btnza')
     this.btnmenor = document.querySelector('.btnmenor')
     this.btnmaior = document.querySelector('.btnmaior')
+    this.itensEncontrado = document.querySelector('.cardapio_filtro p')
+    this.inputSearchFilter = document.querySelector('.busca_filtro')
 
+    this.eventInputFilter = this.eventInputFilter.bind(this)
   }
 
   retornaSearch() {
@@ -23,7 +27,9 @@ export default class CardapioSearch {
         return produto
     })
 
+
     this.cardapio = [...cardapio]
+
 
     this.preencherCardapio(cardapio)
     return cardapio
@@ -72,6 +78,7 @@ export default class CardapioSearch {
 
     const produto = new Produto(this.cardapio, '.cardapio_card').init()
 
+    this.atualizarItensEncontrado(cardapio.length)
   }
 
   filtrarDesconto() {
@@ -122,6 +129,35 @@ export default class CardapioSearch {
     return this.cardapio
   }
 
+  atualizarItensEncontrado(numeroCardapio) {
+    if (numeroCardapio) {
+      numeroCardapio > 1 ? this.itensEncontrado.innerHTML = `ENCONTRAMOS ${numeroCardapio} ITENS` : numeroCardapio === 1 ? this.itensEncontrado.innerHTML = `ENCONTRAMOS ${numeroCardapio} ITEM` : this.itensEncontrado.innerHTML = `NENHUM ITEM ENCONTRADO`
+    }
+  }
+
+  inputFilter(palavraChave) {
+    this.search = palavraChave
+
+    if (!this.cardapioAnterior) {
+      this.cardapioAnterior = [...this.cardapio]      
+    }
+
+    const cardapio = this.cardapioAnterior.filter((produto) => {
+      if (produto.categoria.toLowerCase().includes(this.search.toLowerCase()) ||
+        produto.descricao.toLowerCase().includes(this.search.toLowerCase()) ||
+        produto.nome.toLowerCase().includes(this.search.toLowerCase()) || this.verificaNosIngredientes(produto.ingredientes))
+        return produto
+    })
+
+    this.cardapio = [...cardapio];
+
+    this.preencherCardapio(this.cardapio)
+    return cardapio
+  }
+
+  eventInputFilter(e) {
+    this.inputFilter(this.inputSearchFilter.value)
+  }
 
   addEvents() {
     if (this.btndesconto) {
@@ -143,23 +179,24 @@ export default class CardapioSearch {
     if (this.btnmaior) {
       this.btnmaior.addEventListener('click', (e) => this.retornaMaiorV())
     }
+
+    if (this.inputSearchFilter) {
+      this.inputSearchFilter.addEventListener('keyup', (e) => this.eventInputFilter())
+    }
   }
 
   init() {
     this.addEvents()
 
-
     if (this.cardapioPrincipal) {
       if (this.search) {
         this.retornaSearch()
-        console.log(this.search)
       } else if (this.categoria) {
         this.retornaCategoria()
       } else {
         this.preencherCardapio(this.cardapio)
       }
     }
-
     return this
   }
 }
