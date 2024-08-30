@@ -4,7 +4,7 @@ export default class CardapioSearch {
   constructor(cardapio) {
     this.cardapio = [...cardapio]
     this.cardapioPrincipal = document.querySelector('.cardapio_cards')
-    this.search = window.location.href.split('?search=')[1]
+    this.search = window.location.href.split('?search=')[1].replaceAll('+', ' ')
     this.categoria = window.location.href.split('?categoria=')[1]
 
     this.btndesconto = document.querySelector('.btndesconto')
@@ -152,6 +152,7 @@ export default class CardapioSearch {
     if (this.cardapioPrincipal) {
       if (this.search) {
         this.retornaSearch()
+        console.log(this.search)
       } else if (this.categoria) {
         this.retornaCategoria()
       } else {
