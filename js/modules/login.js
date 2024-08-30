@@ -1,4 +1,5 @@
 import outsideclick from "./outsideclick.js"
+import LoginUser from "./services/loginUser.js";
 
 export default class LoginModal {
   constructor() {
@@ -21,7 +22,7 @@ export default class LoginModal {
         <label class="user_label" for="">USER:</label>
         <input class="user_input" type="text">
         <label class="pass_label" for="">PASSWORD:</label>
-        <input class="user_input" type="password">
+        <input class="pass_input" type="password">
         <div class="form_btns">
           <button class="btn_login">LOGIN</button>
           <button class="btn_cancelar">CANCELAR</button>
@@ -32,6 +33,8 @@ export default class LoginModal {
     body.appendChild(loginModal)
 
     this.addEvents()
+
+    const sistemaLogin = new LoginUser().init()
   }
 
   eventAbrirModal(e) {

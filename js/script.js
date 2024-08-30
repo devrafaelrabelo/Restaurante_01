@@ -8,6 +8,7 @@ import PaginaProduto from './modules/services/produtopagina.js';
 import Promocao from './modules/services/promocao.js';
 import Recomendados from './modules/services/recomendados.js';
 
+
 const menuMobile = new MenuMobile();
 menuMobile.init();
 
@@ -26,3 +27,24 @@ const carrinho = new Carrinho().init()
 const painel = new Painel().init()
 
 const login = new LoginModal().init()
+
+const users = [
+  {
+    "nome": "Rafael",
+    "user": "rafaelrabelo",
+    "passwd": "123456"
+  },
+  {
+    "nome": "Rafael Rabelo",
+    "user": "x",
+    "passwd": "x"
+  },
+  {
+    "nome": "Rabelo",
+    "user": "rafaelrabelogclvs",
+    "passwd": "123456"
+  }
+]
+
+localStorage.setItem('usuarios', JSON.stringify(users))
+
