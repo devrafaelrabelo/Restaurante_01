@@ -11,7 +11,7 @@ import Recomendados from './modules/services/recomendados.js';
 const menuMobile = new MenuMobile();
 menuMobile.init();
 
-const cardapio = new Cardapio('../data/db.json');
+const cardapio = new Cardapio('./data/db.json');
 const cardapioPrincipal = await cardapio.init();
 
 const recomendados = new Recomendados(cardapioPrincipal).init();
