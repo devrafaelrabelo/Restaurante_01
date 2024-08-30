@@ -123,7 +123,8 @@ export default class Carrinho {
   }
 
   atualizarTotal() {
-    return (this.atualizarSubtotal() - this.atualizarDesconto()).toFixed(2)
+    this.valorTotal = (this.atualizarSubtotal() - this.atualizarDesconto()).toFixed(2)
+    return this.valorTotal
   }
 
   preencherValores() {
@@ -133,7 +134,7 @@ export default class Carrinho {
   }
 
   finalizarPedido() {
-    const pedido = new Pedido(this.carrinho).init()
+    const pedido = new Pedido(this.carrinho, this.valorTotal).init()
 
     localStorage.removeItem('carrinho')
     window.location.reload()

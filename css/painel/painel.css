@@ -12,53 +12,30 @@
   font-size: 2rem;
 }
 
-.carrinho_container_cards {
+.painel_container .painel_cards {
   margin-bottom: 2rem;
 }
 
-.painel_container_cards .painel_carrinho {
+.painel_cards .painel_card {
   margin: 1rem 0;  
   display: grid;
-  grid-template-columns: .5fr 2.5fr;
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-}
 
-.produto_carrinho .produto_carrinho_img {
-  border-radius: 4px;
-  width: 200px;
-  height: 200px;
-}
-
-.produto_carrinho .produto_carrinho_img img {
-  border-radius: 4px;
-}
-
-.produto_carrinho .produto_carrinho_info {
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
 }
 
-.produto_carrinho_info .produto_carrinho_nome {
-  font-size: 2rem;
-  margin-bottom: .5rem;
+.painel_cards .painel_card:nth-child(even) {
+  border: 2px solid rgba(0, 0, 0, 1);
 }
 
-.produto_carrinho_info .produto_carrinho_preco {
-  font-size: 1.250rem;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.8);
-  display: flex;
+.painel_cards .painel_card p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
 }
-
-.produto_carrinho_info .produto_carrinho_descricao {
-  margin-top: 1rem;
-  font-size: 1.250rem;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 0.8);
-  display: flex;
-}
-
 
 .painel_container_valor .painel_total {
   display: flex;
