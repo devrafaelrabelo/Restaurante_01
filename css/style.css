@@ -27,3 +27,6 @@
 
 /* Carrinho */
 @import './carrinho/carrinho.css';
+
+/* Painel */
+@import './painel/painel.css';

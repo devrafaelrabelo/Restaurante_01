@@ -1,0 +1,13 @@
+.painel {
+  margin-bottom: 2rem;
+}
+
+.painel_container {
+  width: min(100%, 1200px);
+  margin: auto;
+}
+
+.painel_container .panel_title {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
