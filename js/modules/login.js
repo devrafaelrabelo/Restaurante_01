@@ -1,6 +1,6 @@
 import outsideclick from "./outsideclick.js"
 
-export default class Login {
+export default class LoginModal {
   constructor() {
     this.events = ['touchstart', 'click'];
 
