@@ -1,3 +1,5 @@
+import Pedido from "./pedido.js"
+
 export default class Carrinho {
   constructor() {
     this.carrinho = JSON.parse(localStorage.getItem('carrinho'))
@@ -10,6 +12,7 @@ export default class Carrinho {
     this.eventExcluirProduto = this.eventExcluirProduto.bind(this)
     this.eventDiminuirProduto = this.eventDiminuirProduto.bind(this)
     this.eventAumentarProduto = this.eventAumentarProduto.bind(this)
+    this.eventFinalizarPedido = this.eventFinalizarPedido.bind(this)
   }
 
   preencherCarrinho(carrinhoProdutos) {
@@ -120,13 +123,27 @@ export default class Carrinho {
   }
 
   atualizarTotal() {
-    return (this.atualizarSubtotal() - this.atualizarDesconto()).toFixed(2)
+    this.valorTotal = (this.atualizarSubtotal() - this.atualizarDesconto()).toFixed(2)
+    return this.valorTotal
   }
 
   preencherValores() {
     this.carrinhoSubtotal.innerText = this.atualizarSubtotal()
     this.carrinhoDesconto.innerText = this.atualizarDesconto()
     this.carrinhoTotal.innerText = this.atualizarTotal()
+  }
+
+  finalizarPedido() {
+    const pedido = new Pedido(this.carrinho, this.valorTotal).init()
+
+    localStorage.removeItem('carrinho')
+    window.location.reload()
+  }
+
+  eventFinalizarPedido(e) {
+    e.preventDefault()
+    console.log('Event')
+    this.finalizarPedido()
   }
 
   addEvents() {
@@ -146,11 +163,14 @@ export default class Carrinho {
       }))
     }
 
+    this.btnfinalizarPedido = document.querySelector('.carrinho_finalizar')
+    this.btnfinalizarPedido.addEventListener('click', this.eventFinalizarPedido)
+
     this.preencherValores()
   }
 
   init() {
-    if (this.carrinhoCard) {
+    if (this.carrinhoCard && this.carrinho) {
       this.preencherCarrinho(this.carrinho)
       setTimeout(() => {
         this.addEvents()
