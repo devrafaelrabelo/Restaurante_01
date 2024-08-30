@@ -7,6 +7,7 @@ import Painel from './modules/services/painel.js';
 import PaginaProduto from './modules/services/produtopagina.js';
 import Promocao from './modules/services/promocao.js';
 import Recomendados from './modules/services/recomendados.js';
+import ValidacaoUsuario from './modules/services/validacaoUsuario.js';
 
 
 const menuMobile = new MenuMobile();
@@ -48,3 +49,4 @@ const users = [
 
 localStorage.setItem('usuarios', JSON.stringify(users))
 
+const validacaoUsuario = new ValidacaoUsuario().init()
