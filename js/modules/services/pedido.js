@@ -5,7 +5,11 @@ export default class Pedido {
   }
 
   salvarPedido() {
-    localStorage.setItem(`${this.numeroPedido}`, JSON.stringify(this.pedido))
+    const listaPedido = JSON.parse(localStorage.getItem('pedido')) || [];
+
+    listaPedido.push(this)
+
+    localStorage.setItem('pedido', JSON.stringify(listaPedido));
   }
 
   init() {

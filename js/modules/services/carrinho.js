@@ -134,6 +134,9 @@ export default class Carrinho {
 
   finalizarPedido() {
     const pedido = new Pedido(this.carrinho).init()
+
+    localStorage.removeItem('carrinho')
+    window.location.reload()
   }
 
   eventFinalizarPedido(e) {
