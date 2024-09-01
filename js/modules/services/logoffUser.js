@@ -7,6 +7,8 @@ export default class LogoffUser {
   deslogar() {
     localStorage.removeItem('token');
     window.location.href = 'index.html'
+
+    this.addEvents()
   }
 
   eventDeslogar(e) {

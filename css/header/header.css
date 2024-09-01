@@ -22,6 +22,17 @@
   height: 72px;
 }
 
+.header .header_container .usuario_logado {
+  display: none;
+  position: absolute;
+  left: 80px;
+  top: 1rem;
+}
+
+.header .header_container .usuario_logado.ativo {
+  display: initial;
+}
+
 .header_nav [data-menu="button"] {  
   width: 64px;
   height: 56px;
@@ -90,6 +101,14 @@
 
 .header_nav [data-menu="list"] .btn_logoff.ativo {
   display: flex;
+}
+
+.header_nav [data-menu="list"] .btn_Login {
+  display: flex;
+}
+
+.header_nav [data-menu="list"] .btn_Login.inativo {
+  display: none;
 }
 
 .header_nav [data-menu="list"] .painelV {

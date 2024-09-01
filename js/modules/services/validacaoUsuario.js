@@ -8,32 +8,41 @@ export default class ValidacaoUsuario {
 
     if (validacao == null) {
       window.location.href = 'index.html'
-      alert('VOCE NAO ESTA LOGADO')
     } else {
-      if (validacao) {
-        const sair = document.querySelector('.btn_logoff')
-        console.log(sair)
-        sair.classList.add('ativo')
-      }
-
       if (this.url == '/painelVendedor.html') {
         if (validacao.usuario !== 'Empresa X') {
           window.location.href = 'index.html'
-          alert('VOCE NAO É VENDEDOR')
         }
       }
     }
+  }
 
-    if (validacao.usuario === 'Empresa X') {
-      const painelV = document.querySelector('.painelV')
-      painelV.classList.add('ativo')
+  autenticacaoPrint() {
+    const usuarioLogado = document.querySelector('.usuario_logado')
+    const nomeUsuario = JSON.parse(localStorage.getItem('token'))
+
+    if (nomeUsuario) {
+      usuarioLogado.classList.add('ativo')
+      const spanUsuario = document.querySelector('.usuario_logado span')
+      spanUsuario.innerText = nomeUsuario.usuario
+
+      const sair = document.querySelector('.btn_logoff')
+      sair.classList.add('ativo')
+
+      const entrar = document.querySelector('.btn_Login')
+      entrar.classList.add('inativo')
+
+      if (nomeUsuario.usuario === 'Empresa X') {
+        const painelV = document.querySelector('.painelV')
+        painelV.classList.add('ativo')
+      }
+
     }
   }
 
   init() {
-    if (this.url == '/index.html') {
-      console.log('Tela Inicial')
-    } else {
+    this.autenticacaoPrint()
+    if (!this.url == '/index.html') {
       this.validaLogin()
     }
   }

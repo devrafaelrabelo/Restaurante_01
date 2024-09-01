@@ -7,9 +7,7 @@ export default class LoginUser {
     const listaUsers = JSON.parse(localStorage.getItem('usuarios'))
 
     if (this.validarLogin(listaUsers)) {
-      window.location.href = 'search.html'
-      const usuarioLogado = document.querySelector('.usuario_logado span')
-      usuarioLogado.innerText = 'teste'
+      window.location.href = 'search.html'    
     } else {
       console.log('Dados Incorretos')
     }
