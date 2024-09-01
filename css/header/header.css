@@ -67,9 +67,7 @@
   display: block;
 }
 
-.header_nav [data-menu="list"] li {    
-  
-
+.header_nav [data-menu="list"] li { 
   display: flex;
   flex-direction: column;
   align-items: flex-end; 
@@ -81,8 +79,25 @@
   font-weight: 700;
 }
 
-.header_nav [data-menu="list"] li:last-child {
+.header_nav [data-menu="list"] .btn_Login,
+.header_nav [data-menu="list"] .btn_logoff{
   padding: 1rem 1rem 1rem 4rem;
+}
+
+.header_nav [data-menu="list"] .btn_logoff {
+  display: none;
+}
+
+.header_nav [data-menu="list"] .btn_logoff.ativo {
+  display: flex;
+}
+
+.header_nav [data-menu="list"] .painelV {
+  display: none;
+}
+
+.header_nav [data-menu="list"] .painelV.ativo {
+  display: flex;
 }
 
 .header_nav [data-menu="list"] li:hover {

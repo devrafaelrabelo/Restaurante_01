@@ -1,6 +1,5 @@
 export default class LoginUser {
   constructor() {
-
     this.eventLogar = this.eventLogar.bind(this)
   }
 
@@ -9,6 +8,8 @@ export default class LoginUser {
 
     if (this.validarLogin(listaUsers)) {
       window.location.href = 'search.html'
+      const usuarioLogado = document.querySelector('.usuario_logado span')
+      usuarioLogado.innerText = 'teste'
     } else {
       console.log('Dados Incorretos')
     }
@@ -41,7 +42,6 @@ export default class LoginUser {
     if (this.btnLogin) {
       this.btnLogin.addEventListener('click', this.eventLogar)
     }
-
 
     this.userInput = document.querySelector('.user_input')
     this.passInput = document.querySelector('.pass_input')

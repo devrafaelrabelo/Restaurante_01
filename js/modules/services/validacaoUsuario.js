@@ -8,14 +8,29 @@ export default class ValidacaoUsuario {
 
     if (validacao == null) {
       window.location.href = 'index.html'
-      alert('SEM PRIVILÉGIO')
+      alert('VOCE NAO ESTA LOGADO')
     } else {
-      console.log('Usuario Logado')
+      if (validacao) {
+        const sair = document.querySelector('.btn_logoff')
+        console.log(sair)
+        sair.classList.add('ativo')
+      }
+
+      if (this.url == '/painelVendedor.html') {
+        if (validacao.usuario !== 'Empresa X') {
+          window.location.href = 'index.html'
+          alert('VOCE NAO É VENDEDOR')
+        }
+      }
+    }
+
+    if (validacao.usuario === 'Empresa X') {
+      const painelV = document.querySelector('.painelV')
+      painelV.classList.add('ativo')
     }
   }
 
   init() {
-
     if (this.url == '/index.html') {
       console.log('Tela Inicial')
     } else {

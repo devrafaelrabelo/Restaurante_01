@@ -8,6 +8,8 @@ import PaginaProduto from './modules/services/produtopagina.js';
 import Promocao from './modules/services/promocao.js';
 import Recomendados from './modules/services/recomendados.js';
 import ValidacaoUsuario from './modules/services/validacaoUsuario.js';
+import LogoffUser from "./modules/services/logoffUser.js";
+import PainelVendedor from './modules/services/painelVendedor.js';
 
 
 const menuMobile = new MenuMobile();
@@ -25,28 +27,42 @@ const paginaProduto = new PaginaProduto(cardapioPrincipal).init()
 
 const carrinho = new Carrinho().init()
 
-const painel = new Painel().init()
-
 const login = new LoginModal().init()
+
+const logoff = new LogoffUser().init()
 
 const users = [
   {
-    "nome": "Rafael",
-    "user": "rafaelrabelo",
-    "passwd": "123456"
-  },
-  {
     "nome": "Rafael Rabelo",
-    "user": "x",
-    "passwd": "x"
+    "user": "q",
+    "passwd": "q"
   },
   {
-    "nome": "Rabelo",
-    "user": "rafaelrabelogclvs",
-    "passwd": "123456"
+    "nome": "Oscar Rabelo",
+    "user": "w",
+    "passwd": "w"
+  },
+  {
+    "nome": "Roger Rabelo",
+    "user": "e",
+    "passwd": "e"
+  },
+  {
+    "nome": "Violeta Rabelo",
+    "user": "r",
+    "passwd": "r"
+  },
+  {
+    "nome": "Empresa X",
+    "user": "a",
+    "passwd": "a"
   }
 ]
 
 localStorage.setItem('usuarios', JSON.stringify(users))
 
 const validacaoUsuario = new ValidacaoUsuario().init()
+
+const painel = new Painel().init()
+
+const painelVendedor = new PainelVendedor().init()

@@ -1,10 +1,10 @@
-export default class Painel {
+export default class PainelVendedor {
   constructor() {
-    JSON.parse(localStorage.getItem('token')) ? this.usuario = JSON.parse(localStorage.getItem('token')).usuario : this.usuario = null
-    this.listaPedidos = JSON.parse(localStorage.getItem(this.usuario))
+    this.listaPedidos = JSON.parse(localStorage.getItem('listaPedidos'))
 
-    this.painelCards = document.querySelector('.painel_cards')
-    this.valor = document.querySelector('.painel_total p span')
+    this.painelCards = document.querySelector('.painelV_cards')
+    this.valor = document.querySelector('.painelV_total p span')
+
   }
 
   preencherPedidos(listaPedidos) {
@@ -26,6 +26,8 @@ export default class Painel {
   }
 
   coletarPedidos() {
+    this.listaPedidos = JSON.parse(localStorage.getItem('pedido'))
+
     this.preencherPedidos(this.listaPedidos)
   }
 
@@ -34,13 +36,13 @@ export default class Painel {
       return (acc + Number(pedido.valorTotal));
     }, 0)
 
-    this.valor.innerText = this.valorGasto.toFixed(2)
+    this.valor.innerText = this.valorGasto
   }
 
 
   init() {
-    if (this.painelCards && this.usuario !== null && this.listaPedidos) {
-      this.coletarPedidos()
+    if (this.painelCards && this.listaPedidos) {
+      this.preencherPedidos(this.listaPedidos)
       this.calcularValor()
     }
   }

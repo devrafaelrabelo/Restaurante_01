@@ -134,10 +134,12 @@ export default class Carrinho {
   }
 
   finalizarPedido() {
-    const pedido = new Pedido(this.carrinho, this.valorTotal).init()
+    this.usuario = JSON.parse(localStorage.getItem('token')).usuario
+    console.log(this.usuario)
+    const pedido = new Pedido(this.carrinho, this.valorTotal, this.usuario).init()
 
     localStorage.removeItem('carrinho')
-    window.location.reload()
+    // window.location.reload()
   }
 
   eventFinalizarPedido(e) {
